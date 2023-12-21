@@ -1,2 +1,2 @@
-# Ethical-Hacking-UniPD
-Ethical Hacking course of MSc in Computer Science held by prof. Eleonora Losiouk, First Semester, Padova, 2024-2025
+# Security-and-Risk-Management-and-Certifications-UniPD
+Security and Risk: Management and Certifications course of MSc in Computer Science held by prof. Simone Soderi, Second Semester, Padova, 2023-2024
