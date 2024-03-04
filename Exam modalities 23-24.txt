@@ -1,0 +1,13 @@
+The exam will be this way (for attending students)
+-	Introduction
+o	Technical differences between generative models used for AI
+o	NIFT CSF 2.0
+-	We can download tools like LM Studio to use generative AI locally
+-	Cybersecurity report of an assessment built with AI 
+-	Discussion and conclusion
+-	Maximum 10 pages (if possible)
+We have to instrument the AI based on these frameworks to use the cybersecurity controls and discuss (prof. is more interested on that part on what we are able to do with AI). It’s important to stress the role of security engineers and maintain equilibrium between the two. 
+-	The second part of exam will be open questions (5 open questions)
+For non-attending students:
+-	10/15 open questions on the course contents
+-	More will be written on Moodle
