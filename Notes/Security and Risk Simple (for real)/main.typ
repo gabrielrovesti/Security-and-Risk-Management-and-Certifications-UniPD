@@ -43,9 +43,9 @@
 
 Given the course has so much content, a complete notes file is definitely something we all need, basically an extended transcript of every set of slides (believe me, it was hell to browse - see for yourself and you will prove me right), here I will give a full revised short summary to avoid the unreadable (and soooo unnecessarily long - understandable given the subject but geez) of this "course". Hope this could be useful, between all of my other works. I think this was the heaviest file of notes I've ever written (some were 300/400 pages, but not so much notionistic and presented this bad really), literally hoping for the slides to finish or to have something useful or remotely interesting. Content very interesting, but keep everything I've written in mind.
 
-The professor of the first part is good in general but not for explaining the course material (many times makes reasonings then goes its own way skipping concepts), definitely boring. The professor of the second part is definitely competent and better, but terribly boring too. I advise to study this file on your own and in case you want to do the report to paerticipate in the laboratory held in May usually. I found as many reports as I could in order to have some reference of any kind, see our MEGA for reference.
+The professor of the first part is good in general but not for explaining the course material (many times makes reasonings then goes its own way skipping concepts), definitely boring. The professor of the second part is definitely competent and better, but terribly boring too. I advise to study this file on your own and in case you want to do the report to participate in the laboratory held in May usually. I found as many reports as I could in order to have some reference of any kind, see our MEGA for reference.
 
-Overall, the course is very very heavy and notional, useful but most of the time with unnecessarily long notions given throughout - like, it would literally take much m uch less to explain some parts, so verbose.
+Overall, the course is very very heavy and notional, useful but most of the time with unnecessarily long notions given throughout - like, it would literally take much much less to explain some parts, so verbose.
 
 Book references are made across chapters to the "Effective Cybersecurity" made by William Stallings (quoted by course syllabus since it basically contains many things of the first part of it) to help you browse. Consider, lastly, files like "M0" and "M5", given they are basically professors' presentations modules, it's useless for anything related to the exam, so those are not included. 
 
@@ -62,17 +62,21 @@ Do I suggest to see the book? It's good, but in any case, refer to this material
 #underline[Cyberspace]
 
 - Consists of:
-  - artifacts
+
+  - artifacts (e.g., hardware, software)
   
   - information
+  
   - interconnections
 
 #underline[CyBOK - Cyber Security Body of Knowledge] 
+
 - It aims to codify the foundational and generally recognised knowledge on cyber security
 
-- It's grouped into five  broad categories
+- It's grouped into five broad categories (e.g., human aspects, risks, attacks and defense)
 
 #underline[Cybersecurity] 
+
 - Collection of tools, policies, security concepts, security safeguards, guidelines, risk management approaches used to protect environment and assets
 
 - It's grouped into five  broad categories
@@ -83,23 +87,24 @@ Do I suggest to see the book? It's good, but in any case, refer to this material
 - Generally hardware, software, etc.
 
 #underline[Risk] 
+
 - Possibility that human actions may lead to consequences or have an impact to humans value
 
 - Estimate the likelihood of events, measuring their impact
 
 #underline[Threat] 
 
-- A potential for violation of security, exploiting a vulnerability and getting danger
+- A potential for violation of security, exploiting a vulnerability and getting danger (e.g., malware, hackers)
 
 #underline[Vulnerability] 
 
-- A flaw or weakness in a system’s design that can be exploited violating security policies
+- A flaw or weakness in a system’s design that can be exploited violating security policies (e.g., outdated software, misconfiguration)
 
 #underline[Information security] 
 
 - Preservation of confidentiality, integrity and availability of information 
 
-- In addition, other properties, such as authenticity, accountability, non-repudiation, and reliability
+- Additional properties: authenticity, accountability, non-repudiation, and reliability
 
 == Cybersecurity objectives and dilemmas
 
@@ -114,7 +119,7 @@ Objectives:
 
 Dilemmas:
 
-- Scale and Complexity of Cyberspace: consudering many devices and individuals and technologies advance
+- Scale and Complexity of Cyberspace: considering many devices and individuals and technologies advance
 
 - Nature of Threat: evolving threat and evaluating security risks
 
@@ -125,7 +130,7 @@ Dilemmas:
 
 _Risk_:
 
-- is the possibility that human actions or events lead to consequences that have an impact on what humans value 
+- The possibility that human actions or events lead to consequences that have an impact on what humans value 
 
 Many processes regard risk:
 
@@ -141,19 +146,20 @@ Many processes regard risk:
   - set of ongoing processes and principles that aims to ensure an awareness and education of the risks faced when certain actions occur, and to inspire a sense of responsibility
 
 #pagebreak()
-Risk assessment:
 
-- has to use analytic and structured processes to capture the potential for desirable and undesirable events, and a measure of the likely outcomes and impact
+Going deeper for risk assessment:
 
-- it involves reviewing information collected as part of the risk (and concern) assessments, forming the basis of decisions leading
+- Uses analytic and structured processes to capture the potential for desirable and undesirable events, and measure likely outcomes and impact
 
-- estimates the different levels of risks:
+- Involves reviewing collected information, forming the basis for decisions
 
-  - intolerable: risk needs to be abandoned or replaced
+- Estimates the different levels of risks:
 
-  - tolerable: reduced with reasonable methods
+  - Intolerable: risk needs to be abandoned or replaced
 
-  - acceptable: the reduction is not necessary
+  - Tolerable: reduced with reasonable methods
+
+  - Acceptable: the reduction is not necessary
 
 It's important for many reasons:
 - Identification and, if possible, estimation of hazard
@@ -174,11 +180,13 @@ It's important for many reasons:
   - Targets or conditions to be met
   
 - #underline[Policies] 
+
   - High-level statements of management intent from an organization’s executive leadership that are designed to influence decisions and guide the organization to achieve the desired outcomes
   
   - Policies are enforced by standards and further implemented by procedures
 
 - #underline[Procedures] 
+
   -  Documented set of steps necessary to perform a specific task or process in conformance with an applicable standard
   
   - There help address the question of how the organization actually operationalizes a policy, standard or control
@@ -186,13 +194,14 @@ It's important for many reasons:
 #pagebreak()
 
 - #underline[Guidelines] 
+
   - Recommended practices that are based on industry-recognized secure practices
   
   - We apply the guidelines where we cannot apply the standard
 
 == Standards and Best Practices documents
 
-A number of organizations, based on wide professional input or professional and industry groups, have developed best practices documents/guidelines as well as standards for implementing and evaluating cybersecurity (just to quote here different ones from slides):
+Organizations and industry groups have developed best practices, guidelines, and standards for implementing and evaluating cybersecurity, including:
 
 - National Institute of Standards and Technology (NIST) 
 
@@ -210,46 +219,55 @@ A number of organizations, based on wide professional input or professional and 
 == Standard of Good Practice (SOGP)
 
 A #underline[security policy]:
-- is a set of rules and practices that specify or regulate how a system or organization provides security services to protect sensitive and critical system resources
 
-- it includes associated responsibilities, security principles followed by all relevant individuals
-- it applies to all employees
-- has many different types (e.g., access control, network security, etc.)
+- Set of rules and practices that specify or regulate how a system or organization provides security services to protect sensitive and critical system resources
+
+- Includes associated responsibilities, security principles followed by all relevant individuals
+
+- Applies to all employees
+
+- Has many different types (e.g., access control, network security, etc.)
 
 SOGP:
 
-- is issued by the Information Security Forum (ISF). The goal of the ISF is the development of best practice methodologies, processes, and solutions
+- Issued by the Information Security Forum (ISF). The goal of the ISF is the development of best practice methodologies, processes, and solutions
 
-- is a business-focused comprehensive guide to identifying and managing information security risks
+- A business-focused comprehensive guide to identifying and managing information security risks
 
-- is based on research projects and input from ISF members as well as analysis of the leading standards on cybersecurity
+- Based on research projects and input from ISF members as well as analysis of the leading standards on cybersecurity
 
-- is of particular interest to business managers or chief information security officers
+- Is of particular interest to business managers or chief information security officers
 
-- is made of 17 categories, each with 2 areas and 132 topics in total and each one of these addresses good pratice controls, consistent with ISO/IEC 27000 standards structure
+- Consists of 17 categories, each with 2 areas and 132 topics addressing good practice controls, Consistent with the ISO/IEC 27000 standards structure
 
-- has 3 main activities:
-  - planning for cybersecurity: developing approaches/requirements/policies
+- Has 3 main activities:
+
+  - Planning for cybersecurity: developing approaches/requirements/policies
   
-  - managing the cybersecurity function
-  - security assessment: assuring continuity and improving the suite of cybersec controls
+  - Managing the cybersecurity function
+  
+  - Security assessment: assuring continuity and improving the suite of cybersec controls
 
 == ISO/IEC 27000
 
-The ISO and IEC are the main standardization bodies and have developed a growing family of standards in the ISO/IEC 27000 series that deal with ISMS - Information Security Management System.
+ISO and IEC have developed the ISO/IEC 27000 series of standards dealing with Information Security Management Systems (ISMS).
 
-- Information security management system (ISMS) consists of the policies, procedures, guidelines  with the scope of protecting its information assets
+- #underline[Information security management system] (ISMS) consists of the policies, procedures, guidelines  with the scope of protecting its information assets
 
 - Systematic approach for establishing, implementing, operating, monitoring, reviewing, maintaining and improving an organization’s information security to achieve business objectives
+
 - Based upon a risk assessment and the organization’s risk acceptance levels designed to effectively treat and manage risks
 
 ISO 27000 suite has principles which contribute to the successful implementation of an ISMS:
+
 - raising awareness
 
 - assigning responsibilities
 
 - incorporating security
+
 - ensuring a comprehensive approach
+
 - preventing and detecting
 
 It is composed by 4 categories: 
@@ -257,26 +275,29 @@ It is composed by 4 categories:
 - Overview and vocabulary
 
 - Requirements
+
 - Guidelines
+
 - Sector-specific guidelines
 
 #pagebreak()
 
 == ISO/IEC 27001
 
-ISO 27001 is a management standard initially designed 
+#underline[ISO 27001] is a management standard initially designed 
 for the certification of organizations. It's composed by:
 
 - Certification Audit
 
 - Qualified individuals to develop and maintain an ISMS
+
 - Obtaining certifications (third-party assessments) to enhance the value 
-- It can be mapped easily to meet ISF SOGP, provoding a far more detailed description of the controls able to satisfy requirements
+
+- It can be mapped easily to meet ISF SOGP, providing a far more detailed description of the controls able to satisfy requirements
 
 == ISO/IEC 27002
 
-It provides the broadest treatment of ISMS topics 
-in the ISO 27000 series and allows for selection of controls for ISMS.
+It provides the broadest treatment of ISMS topics in the ISO 27000 series and allows for selection of controls for ISMS.
 
 - Allows to choose the controls needed to satisfy ISMS requirements
 
@@ -291,26 +312,24 @@ It deals with security of the industrial control system, popularly known as the 
 - It ensures that a product supplier, integrator or an asset owner follows an efficient method for secured process with a key aspect on safety of the personnel
 
 It's divided into four _parts_:
+
   - General: basic terminologies and concepts
 
   - Policies: required to implement a cybersec system
+  
   - System: describes security requirements for systems
+  
   - Component: describes security requirements for systems for components
   
-Different from normal IT systems given they are rarely patched or changed, but time dependency here is critical, less awareness overall. It defines also some _roles_:
-- product supplier
+Differs from IT systems due to infrequent patching, critical time dependency, and lower awareness. Defines roles:
 
-  - responsible for development and testing of the control system, embedded device and host device
-  
-- system integrator
+- Product supplier: responsible for development and testing of control systems, embedded devices, and host devices
 
-  - responsible for the integration and starting up, with conformance to specific security levels
+- System integrator: responsible for integration and start-up, conforming to security levels
+
+- Asset owner: responsible for operational and maintenance capabilities
 
 #pagebreak()
-
-- asset owner
-
-  - responsible for operational and maintenance capabilities
 
 Let's list some _concepts_:
 
@@ -334,7 +353,9 @@ Let's list some _concepts_:
 
 Finally, its _security levels_:
 
-- It focuses on the zones, making decisions on the use of countermeasures and can be applied to Defense in Depth
+- Focus on zones, making decisions on countermeasures
+
+- Applicable to Defense in Depth
 
 - Different ones to list:
 
@@ -367,6 +388,8 @@ And also _maturity levels_:
 #underline[NIST] is a U.S. federal agency that deals with measurement science, standards, and technology.
 
   - Their publications have a _worldwide impact_ and bring an excellent resource on the field, providing prescriptive standards, tutorials and surveys defining for each countermeasures to act against threats
+
+    - For example, NIST SP 800-53 provides state-of-the-art practice security controls and control enhancements
   
   - The NIST Computer Security Resource Center (CSRC) is the source of a vast collection of documents that are widely used in the industry (more #link("https://csrc.nist.gov/")[here])
 
@@ -374,8 +397,7 @@ And also _maturity levels_:
 
 - The framework is a collection of best practices that improve efficiency and protect components. The document itself is _used for nongovernment organizations_, with the clear goal of continuous improvement while managing supply chain risk
 
-- Useful for final report, so start reading this 
-one #link("https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf")[here] but also #link("https://www.nist.gov/cyberframework")[here]
+- Useful for final report, so start reading this one #link("https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf")[here] but also #link("https://www.nist.gov/cyberframework")[here]
 
 Composed by three _parts_:
 
@@ -407,8 +429,6 @@ Composed by six key #underline[functions], each divided into specific _categorie
 
   - _Recover_
 
-#pagebreak()
-
 Composed by #underline[tiers], which define the _priority_ and the _level of commitment_. These describe increasing degrees of rigor of practices and extent of business needs information and integration :
 
   - _Tier 1: Partial_
@@ -423,11 +443,11 @@ Composed by #underline[profiles], which are a selection of categories and subcat
 
 There was a significant revision of NIST CSF with version 2.0:
 
-1. it introduced a new function called "Govern," which emphasises the significance of organisational governance in cybersecurity
+1. It introduced a new function called "Govern," which emphasizes the significance of organisational governance in cybersecurity
 
-2. it emphasizes the importance of managing supply chain risk, which is a growing concern for organizations
+2. It emphasizes the importance of managing supply chain risk, which is a growing concern for organizations
 
-3. it encourages organizations to adopt a mindset of continuous improvement
+3. It encourages organizations to adopt a mindset of continuous improvement
 
 Given approaching a document such as the ISF SGP or the ISO 27002 can be _intimidating_ and even overwhelming because of the large body of knowledge inside, this framework is an _excellent resource_ to help in use of more detailed documents.
 
@@ -554,11 +574,9 @@ The _output_ of the evaluation phase, and therefore the result of the entire ass
 
   - Consists of the most critical security risks to mobile applications. It represents a broad consensus about the most critical security risks to mobile applications
 
-#pagebreak()
-
 - OWASP Mobile Application Security (MAS)
 
-  - It provides a security standard for mobile apps (OWASP MASVS) and a comprehensive testing guide (OWASP MASTG) defining process/techniques/tools usign during mobile security tests
+  - It provides a security standard for mobile apps (OWASP MASVS) and a comprehensive testing guide (OWASP MASTG) defining process/techniques/tools using during mobile security tests
   
   - It covers the processes, techniques, and tools used during a mobile app security test, as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results
 
@@ -600,47 +618,47 @@ A good #underline[cybersecurity management process] is an essential characterist
 
 #underline[Security governance]:
 
-- is the _process_ of establishing and maintaining a framework and supporting management structure and processes 
+- The _process_ of establishing and maintaining a framework and supporting management structure and processes 
 
-  - alternatively, as complementary definition, the _system_ by which activities are directed and controlled
+  - Alternatively, as a complementary definition, the _system_ by which activities are directed and controlled
 
-- allows to _provide assurance that information security strategies are aligned with and support business objectives_, are consistent with applicable laws and regulations through adherence to policies and internal controls
+- Allows to _provide assurance that information security strategies are aligned with and support business objectives_, are consistent with applicable laws and regulations through adherence to policies and internal controls
 
-- wants to _provide assignment of responsibility_, all in an _effort to manage risk_
+- Wants to _provide assignment of responsibility_, all in an _effort to manage risk_
 
 To better understand the role of security governance, it is useful to distinguish between different levels of _security_:
 
-- _governance_
+- _Governance_
 
-  - process that develops the security program that adequately meets the strategic needs of the business
+  - Process that develops the security program that adequately meets the strategic needs of the business
 
-    - security program is the management, operational, and technical aspects of protecting information and information systems - consisting in different policies/procedures for coordinating activities
+    - Security program is the management, operational, and technical aspects of protecting information and information systems - consisting in different policies/procedures for coordinating activities
 
-  - it communicates the mission priorities and overall risk tolerance
+  - It communicates the mission priorities and overall risk tolerance
 
-- _management_
+- _Management_
 
-  - supervision and making of decisions necessary to achieve business objectives through the protection of the organization’s information assets
+  - Supervision and making of decisions necessary to achieve business objectives through the protection of the organization’s information assets
 
-  - it's expressed thorugh formulation and use of information security policies, procedures and guidelines
+  - Expressed through formulation and use of information security policies, procedures and guidelines
 
-  - it uses the information as inputs into the risk management process that realizes the security program and define the cybersecurity profile
+  - Uses the information as inputs into the risk management process that realizes the security program and define the cybersecurity profile
 
 #pagebreak()
 
-- _implementation/operations_
+- _Implementation/operations_
 
-  - implementation, deployment and ongoing operation of security controls defined within a cybersecurity framework
+  - Implementation, deployment and ongoing operation of security controls defined within a cybersecurity framework
 
-  - it integrates into the life cycle and monitors security performance continuously
+  - Integrates into the life cycle and monitors security performance continuously
 
 In an ISMS:
 
-- reports _help to define_ the threat and level of risk
+- Reports _help to define_ the threat and level of risk
 
-- standards and best practices _provide guidance_ on managing risk
+- Standards and best practices _provide guidance_ on managing risk
 
-- feedback help _improve the effectiveness_ of policies and technical mechanisms
+- Feedback help _improve the effectiveness_ of policies and technical mechanisms
 
 Security governance establishes different principles:
 
@@ -706,13 +724,13 @@ NIST SP 800-100 lists the following key activities, or _components_ that _consti
 
 == Strategic planning
 
-Let’s define three hierarchically related aspects of strategic planning:
+Let’s define three hierarchically related aspects of #underline[strategic planning]:
 
-- Enterprise strategic planning 
+- _Enterprise_ strategic planning 
 
   - Involves defining _long-term goals_ and objectives for an organization and the development of plans to achieve, with ongoing oversight of the implementation
 
-- IT strategic planning 
+- _IT strategic_ planning 
 
   - Considering development and changes to involve new arrangements with outside providers and use of mobile devices
 
@@ -732,17 +750,17 @@ Let’s define three hierarchically related aspects of strategic planning:
 
     - Regular reviews: monthly-based reviews culminating in a year-end assessment, continuing to improve into following years, hence modifying inputs and processes
 
-- Information security strategic planning
+- _Information security_ strategic planning
 
   - Aligned with enterprise and IT strategic planning
 
-  - A _strategic plan_ is a document used to communicate, within the organization, the organization’s goals, the actions needed to achieve those goals, and all the other critical elements developed during planning exercises
+  - A _strategic plan_ is a document used to communicate, within the organization, the organization’s goals and the actions needed to achieve those goals
 
     - This should be approved by executives and committees, while regularly reviewed
 
 == Organizational structure
 
-The _organizational structure_ to deal with cybersecurity depends on the size of the organization, its type, and the organization’s degree of dependence on IT.
+The #underline[organizational structure ]to deal with cybersecurity depends on the size of the organization, its type, and the organization’s degree of dependence on IT.
 
 - The Information Security Governance Framework includes the governing cycle to direct, monitor, and evaluate the ISMS
 
@@ -755,12 +773,14 @@ It has a full _cycle_ to respect:
 - Direct: leading strategies, developing a security policy
 
 - Monitor: performances measured with metrics
+
 - Evaluate: assessing and verifying the results of monitoring
+
 - Communicate: reporting stakeholders' requirements
 
 == Security report
 
-_Reporting_ enables stakeholders to ensure that information security is being managed effectively, including policies, evaluation and responses to a system.
+#underline[Reporting] enables stakeholders to ensure that information security is being managed effectively, including policies, evaluation and responses to a system.
 
 - Includes costs and benefits
 
@@ -770,12 +790,16 @@ _Reporting_ enables stakeholders to ensure that information security is being ma
 
 - Risk reduction
 
+\
+
 A report should include:
 
 - Introduction
 
 - Status
+
 - Updates
+
 - Significant issues (if any)
 
 - Decisions required (if any)
@@ -820,7 +844,7 @@ It is important to have a structure with clear responsibilities but also metrics
 
 == Security policies
 
-NIST SP 800-53 rev.5 “Security and Privacy Controls for Information Systems and Organizations” defines an information security policy as: “an aggregate of directives, rules, and practices that prescribes how an organization manages, protects, and distributes information".
+NIST SP 800-53 rev.5 “Security and Privacy Controls for Information Systems and Organizations” defines an _information security policy_ as: “an aggregate of directives, rules, and practices that prescribes how an organization manages, protects, and distributes information".
 
 - It is an essential component of security governance, providing a concrete expression of the security goals and objectives
 
@@ -830,7 +854,7 @@ NIST SP 800-53 rev.5 “Security and Privacy Controls for Information Systems an
 
 == Security approach and framework
 
-Effective security governance requires the development of a framework, which is a structured approach for overseeing and managing risk for an enterprise. 
+_Effective security governance_ requires the development of a #underline[framework], which is a structured approach for overseeing and managing risk for an enterprise. 
 
 - The implementation and ongoing use of the governance framework enables the organization’s governing body to set clear direction for and demonstrate their commitment to information security and risk management
 
@@ -839,14 +863,18 @@ Effective security governance requires the development of a framework, which is 
   - Appoint a single executive to be ultimately responsible for security governance
   
   - Decide and communicate to top executives the objectives of the security governance framework
+  
   - Ensure integration of the security architecture with the enterprise architecture
+  
   - Include a process that enables the governing body to evaluate the operation of the information security strategy
+  
   - Regularly review the organization’s risk willingness to ensure that it is appropriate for the current environment in which the organization operates
+  
   - Formally approve the information security strategy, policy, and architecture
 
 == Security direction, evaluation and best practices
 
-A governing body is responsible for ensuring that there is effective security direction.
+A #underline[governing body] is responsible for ensuring that there is effective security direction.
 
 - SOGP recommends that effective security direction be provided by a combination of a single individual responsible for information security supported by a governing body
 
@@ -871,8 +899,11 @@ Security governance also enlists some best practices:
 - Security Governance Framework
 
 - Security Direction
+
 - Information Security Strategy
+
 - Stakeholder Value Delivery
+
 - Information Security Assurance
 
 == Risk assessment
@@ -960,15 +991,18 @@ NIST Cybersecurity SP 800-37 “Risk Management Framework for Information System
   - Context establishment
 
   - Risk assessment
+  
   - Risk treatment
+  
   - Risk acceptance
+  
   - Risk communication and consultation
+  
   - Risk monitoring and review
 
 == Asset identification
 
-A first step in risk assessment is to document and determine values for 
-the organization’s assets:
+A first step in risk assessment is to document and determine values for the organization’s assets:
 
 - An asset is anything of value to the business
 
@@ -1010,7 +1044,7 @@ In order to effectively protect assets, an organization needs to provide a syste
 
 == Threat types and identification
 
-#underline[Threat identification] is the process of identifying sources with the potential to harm system assets. Threat sources are categorized into three areas:
+#underline[Threat identification] is the process of identifying sources with the potential to harm system assets. Such threat sources are categorized into three areas:
 
 - Environmental
 
@@ -1024,8 +1058,7 @@ In order to effectively protect assets, an organization needs to provide a syste
 
   -  Examples include hackers, hacktivists
 
-Many efforts have been made to categorize types of threats, and there is considerable overlap in the definition of some common terms. A large 
-category of threat is malicious software, or malware, which is a general term encompassing many types of software threats (e.g., malware, virus, worm, etc.)
+Many efforts have been made to categorize types of threats, and there is considerable overlap in the definition of some common terms. A large category of threat is malicious software, or malware, which is a general term encompassing many types of software threats (e.g., malware, virus, worm, etc.)
 
 - It is difficult to get reliable information on past events and to assess future trends
 
@@ -1047,18 +1080,24 @@ category of threat is malicious software, or malware, which is a general term en
 
     - For each threat, the report provides a kill chain, which is a systematic process used to target and engage an adversary to create desired effects
 
-There is also _SOC - Security Operation Center_, which is a facility that tracks and integrates multiple security inputs, checks risk, determines the targets of an attack, contains the impact of an attack, and recommends and/or executes responses appropriate to any given 
-attack.
+#pagebreak()
+
+There is also _SOC - Security Operation Center_.
+
+- A facility that tracks and integrates multiple security inputs, checks risk, determines the targets of an attack, contains the impact of an attack, and recommends and/or executes responses appropriate to any given attack.
 
 == Control identification
 
-Controls for cybersecurity include any process that modifies information security risk. Controls are administrative, technical, management, or legal in nature.
+#underline[Controls for cybersecurity] include any process that modifies information security risk. Controls are administrative, technical, management, or legal in nature.
 
 Control identification is defined in ISO 27005 and suggests the following steps:
+
 - (1) Review documents containing information about the control
 
 - (2) Check with the people with responsibility related to information security and the users about which controls are implemented
+
 - (3) Conduct an on-site review of the physical controls, comparing those implemented with the list of what controls should be there
+
 - (4) Review results of audits
 
 NIST SP 800-53 should be consulted in the development of any risk treatment plan, considering it defines multiple families. 
@@ -1077,8 +1116,7 @@ This NIST Interagency Report (NISTIR) provides guidance on how small businesses 
 
 == Vulnerability identification and classification
 
-#underline[Vulnerability identification] is the process of identifying 
-_vulnerabilities_, which are weakness or flaws inside procedures, design or implementation.
+#underline[Vulnerability identification] is the process of identifying _vulnerabilities_, which are weakness or flaws inside procedures, design or implementation.
 
 There are different categories:
 
@@ -1114,13 +1152,13 @@ In the area of technical vulnerabilities, it is possible to be more precise and 
 
 Two factors of risk assessment, impact and likelihood, can be treated either quantitatively or qualitatively:
 
-- Impact
+- _Impact_
 
   - A quantitative approach we can assign a specific monetary cost
 
   - Otherwise, qualitative terms, such as low, moderate, and high, are used
 
-- Likelihood
+- _Likelihood_
 
   - The quantitative version of likelihood is simply a probability value
 
@@ -1128,7 +1166,7 @@ Two factors of risk assessment, impact and likelihood, can be treated either qua
 
 For #underline[quantitative risk assessment]:
 
-- Numerical values are assigned to both impact and likelihood then values based on statistical probabilities and monetarized valuation of loss or gain - more keen to see individual project risks
+- Uses numerical values to measure risk in terms of probability and impact
 
 - If all factors are expressed quantitatively, then it is possible to develop a formula that measures the cost of security breaches as follows: 
 
@@ -1138,19 +1176,17 @@ For #underline[quantitative risk assessment]:
   
     - $"Residual risk level = (Probability of adverse event)/(Mitigation factor) x (Impact value)"$
 
-- If factors can be quantified with a reasonable degree of confidence, then previous equations should be used to guide decisions concerning how much to invest in security control
+- Expresses results in quantitative terms like monetary values or percentage
 
-- As new security controls are implemented, cost of security breaches declines, but total cost of security increases
+- Requires reliable data and confident estimates for accurate calculations
 
-- At the end for the qualitative risk we need to define levels of risk
+- Useful for cost-benefit analysis and determining optimal investment in controls, which can be complex, time-consuming, and require expertise to perform
 
 For #underline[qualitative risk assessment]:
 
-- It determines a relative risk rather than an absolute risk, usually sufficient for identifying the most significant risks - considers the project risks as a whole
+- It determines a relative risk rather than an absolute risk. Evaluates risk based on relative estimates and subjective judgments rather than precise numerical values
 
-- It is clear that subjective estimates are inherent in the process, while evaluating between opinions and risks
-
-- Has different impact categories:
+- Uses descriptive categories or scales to measure risk:
 
   - Low (limited adverse effect)
 
@@ -1173,9 +1209,13 @@ For #underline[qualitative risk assessment]:
   - Security issue
 
   - Likelihood
+  
   - Impact
+  
   - Risk level
+  
   - Recommended security controls
+  
   - Control priorities
 
 - Compliance requirements include those imposed by the organization’s security policy. It should be rated as follows:
@@ -1183,20 +1223,22 @@ For #underline[qualitative risk assessment]:
   - 0 = not implemented
   
   - 1 = partially implemented 
+  
   - 2 = implemented but not yet documented 
+  
   - 3 = implemented and documented 
 
+#pagebreak()
 
 == Factor Analysis of Information Risk (FAIR)
 
-For purposes of risk assessment, it is useful to group security controls in a manner that reflects the risk assessment process. 
-- FAIR is an important contribution to risk assessment first introduced in 2005 and has been standardized by the Open Group, providing a methodology for analyzing risk
+#underline[FAIR (Factor Analysis of Information Risk)] is an important contribution to risk assessment first introduced in 2005 and has been standardized by the Open Group, providing a methodology for analyzing risk.
 
 - The standards is probabilistic rather than predictive, understanding "the probable frequency and magnitude of future loss"
 
 - It provides a more detailed set of guidelines than ISO 27005, giving definitions more specifically tied to risk analysis and based on a belief that subjective qualitative analysis is inadequate
 
-The #underline[FAIR (Factor Analysis of Information Risk)] risk analysis document groups controls into four categories:
+FAIR risk analysis document groups controls into four categories:
 
 - (1) Avoidance controls
 
@@ -1206,11 +1248,11 @@ The #underline[FAIR (Factor Analysis of Information Risk)] risk analysis documen
 
 - (4) Responsive controls
 
-- FAIR adopts a top-down approach
+- It adopts a top-down approach
 
-  - based on historical data, to develop an estimate of loss event frequency, simply on the basis of how frequently a loss event has occurred in the past
+  - Based on historical data, to develop an estimate of loss event frequency, simply on the basis of how frequently a loss event has occurred in the past
 
-- FAIR has different Risk Assessment Levels:
+- It has different Risk Assessment Levels:
 
   - If the organization’s management or security analysts do not have confidence that a good loss event frequency can be directly estimated: estimating threat event frequency and estimating vulnerability
 
@@ -1221,6 +1263,7 @@ The #underline[FAIR (Factor Analysis of Information Risk)] risk analysis documen
     - probability of acting against assets
 
   - Contact can be physical or logical
+  
     - Physical access is possible for employees and outside actors
     
     - Logical access is via a network
@@ -1231,6 +1274,8 @@ The #underline[FAIR (Factor Analysis of Information Risk)] risk analysis documen
 
   - Determine the probability that the threat agent will take action
 
+#pagebreak()
+
   - The two dimensions of vulnerability are the threat capability and the control strength and estimating capability involves looking at two factors:
 
     - Skill
@@ -1239,7 +1284,7 @@ The #underline[FAIR (Factor Analysis of Information Risk)] risk analysis documen
 
 == Likelihood assessment
 
-- The process of developing some sort of agreed-upon likelihood score that estimates the chance of a threat action
+The #underline[likelihood assessment] is the process of developing some sort of agreed-upon likelihood score that estimates the chance of a threat action.
 
 - The assessment considers the presence, tenacity, and strengths of threats as well as the presence of vulnerabilities and the effectiveness of security controls already in place
 
@@ -1255,31 +1300,35 @@ The #underline[FAIR (Factor Analysis of Information Risk)] risk analysis documen
 
 == Impact assessment
 
-- The process of developing some sort of agreed-upon impact score or cost value that estimates the magnitude or the adverse consequence of a successful threat action
+The #underline[impact assessment] is the process of developing some sort of agreed-upon impact score or cost value that estimates the magnitude or the adverse consequence of a successful threat action.
 
 - The essence of impact assessment is that, for a given threat to a given asset, you determine the impact on the asset if the threat were to become an actual security incident
 
-- Detailed guidance on how to characterize impact and depends on two categories of loss: 
-    - primary loss
-      - occurs directly as a result of the threat agent’s action upon the asset
+- Detailed guidance on how to characterize impact and depends on two categories of loss:
+
+    - Primary loss
+    
+      - Occurs directly as a result of the threat agent’s action upon the asset
       
-      - the owner of the affected assets is considered the primary stakeholder in an analysis
+      - The owner of the affected assets is considered the primary stakeholder in an analysis
       
-      - this event affects the primary stakeholder in terms of productivity loss, response costs, and so on
+      - This event affects the primary stakeholder in terms of productivity loss, response costs, and so on
 
-      - there are two aspects: asset and threat
+      - There are two aspects: asset and threat
 
-      - next step is determining what threat action might apply to this asset: access/misuses/disclosure/modification/deny access
+      - Next step is determining what threat action might apply to this asset: access/misuses/disclosure/modification/deny access
 
-    - secondary loss
+    - Secondary loss
 
-      - occurs as a result of secondary stakeholders reacting negatively to the primary event
+      - Occurs as a result of secondary stakeholders reacting negatively to the primary event
 
-      - here, magnitude and loss event frequency are measured
+      - Here, magnitude and loss event frequency are measured
 
-Once the loss magnitude is estimated and the loss event frequency derived, it is a straightforward process to derive an estimate of risk, done separately for primary/secondary, then combining them to determine an overall risk.
+Once the impact and likelihood assessments are completed, the level of risk can be determined by combining them using predefined criteria or matrices. This helps prioritize risks and guide treatment decisions. 
 
-- This is done, for example, via risk assessment matrices
+- A common approach is to use a risk matrix that maps likelihood and impact ratings to corresponding risk levels.
+
+- The following is a good example to consider.
 
 #figure(
   image("figures/matrix.png", width: 50%),
@@ -1288,9 +1337,7 @@ Once the loss magnitude is estimated and the loss event frequency derived, it is
 
 == Risk evaluation and treatment
 
-Evaluation process: 
-
-- Once a risk analysis is done, senior security management and executives can determine whether to accept a particular risk and if not determine the priority in assigning resources to mitigate the risk
+Once a risk analysis is done, senior security management and executives can determine whether to accept a particular risk and if not determine the priority in assigning resources to mitigate the risk.
 
 NIST SP 800-100 provides some general guidance for evaluating risk and prioritizing action:
 
@@ -1321,8 +1368,6 @@ ISO 27005 lists these options for treating risk:
 - Risk avoidance
 
   - If the risk in a certain situation is considered too high and the costs of mitigating the risk down to an acceptable level exceed the benefits, the organization may choose to avoid the circumstance
-
-#pagebreak()
   
 - Risk transfer or sharing
 
@@ -1336,7 +1381,7 @@ ISO 27005 lists these options for treating risk:
 
 == Threat modelling
 
-A strategic process aimed at considering possible attack scenarios and vulnerabilities within a proposed or existing application environment for the purpose of clearly identifying risk and impact level.
+#underline[Threat modelling] is a strategic process aimed at considering possible attack scenarios and vulnerabilities within a proposed or existing application environment for the purpose of clearly identifying risk and impact level.
 
   - Think and find security issues
 
@@ -1346,13 +1391,13 @@ A strategic process aimed at considering possible attack scenarios and vulnerabi
 
 - Four step process
 
-  - What are you building
+  - What are you building?
 
-  - What can go wrong
+  - What can go wrong?
 
-  - What should you do if things go wrong
+  - What should you do if things go wrong?
 
-  - Was analysis a good job
+  - Was analysis a good job?
 
 - Useful to create diagrams, giving an overview and identifying trust boundaries and Data Flow Diagrams (DFD)
 
@@ -1537,6 +1582,7 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Includes hiring, training, monitoring and handling employees
 
 - Not only a technical challenge, but also employees also have to be aware of incidents and problems
+
 - Harmful behaviors can occur, being both malicious and non-malicious
 
 == Hiring process
@@ -1544,20 +1590,27 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - ISO 27002 specifies "the hiring process ensures employees and contractors understand their responsibilities, suitable for their roles"
 
 - They should be fully capable of perform the intended job, without making unfounded claims and avoiding "negligent hiring"
+
 - Ask applicants as much detail as possible and in case get even criminal/credit record check, according to the country's law
-- Employees should agree and sign the terms and conditions of contracts, including non-disclosure agreement and ensuring assets are confidential, agreeing to respect both the policy and confidentiality
+
+- Have employees sign contracts with NDAs, security policy agreements agreeing to respect both the policy and confidentiality
 
 == During and after employment
 
 - Each job should have specific cybersec tasks associated
 
 - Employers and contractors should be aware of responsibilities, policy and training programs
+
 - Several principles for personnel security:
+
   - Least privilege
-  
+
   - Separation of duties
+  
   - Mandatory vacations
+  
   - Limited reliance on key employees
+  
   - Dual operator policy
 
 - During the termination of employment phase, organization's interests should be protected and all data/accounts/codes/assets regarding specific individuals will be removed
@@ -1569,40 +1622,55 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Having a good security awareness and appropriate security training is as important as any other security countermeasure or control
 
 - Activities that explain and promote security should develop into secure practices according to the specific role, accompanying good education/certification
+
 - All employees have security responsibilities which the awareness program should constantly push, being focused on all people and categories
+
 - A good program should include all aspects (e.g., communication, responsibility, help, security culture)
 
 - According to ENISA we should have:
+
   - Plan/Assess/Design
   
   - Execute/Manage
+  
   - Evaluate/Adjust
 
 - Good communication materials should be available:
+
   - both in-house
   
   - and externally obtained
+  
 - Good education/certification programs should be also available, considering specialized training
 
 - Role-based training also should encompass:
+
   - Manage
   
   - Design
+  
   - Implement
+  
   - Evaluate
 
 == Hardware management
 
-- Hardware = any physical asset used to support corporate information or systems, including the software embedded within them and the operating systems
+- #underline[Hardware] = any physical asset used to support corporate information or systems, including the software embedded within them and the operating systems
 
-- Hardware Asset Management (HAM) deals specifically with hardware portion of IT assets, managing the physical components
+- #underline[Hardware Asset Management (HAM)] deals specifically with hardware portion of IT assets, managing the physical components
+
 - Its lifecycle is composed by:
+
   - Planning
   
   - Acquiring
+  
   - Deploying
+  
   - Managing
+  
   - Disposing
+  
 - Destruction is important to handle data safely
 
 == Office equipment
@@ -1610,14 +1678,21 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Every hardware inside an office, containing sensitive information processed by or stored inside of it
 
 - Could be also multifunction devices (MFD)
+
 - Each contains some processing power, and each is an asset to protect opportunities for threat and protection
+
 - Could be exposed to several threats:
+
   - Network services
   
   - Information disclosure
+  
   - DoS attacks
+  
   - Physical security
+  
   - OS security
+  
 - They can have a checklist containing organization measures
 
 == Equipment disposal
@@ -1629,6 +1704,7 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
   - Clear = sanitize storage locations
   
   - Purge = apply logical/physical techniques to destroy encryption key on devices
+  
   - Destroy = renders target data recovery infeasible
 
 == Industrial Control System (ICS) security
@@ -1636,20 +1712,29 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Used in control industrial processes, including Supervisory Control and Data Acquisition (SCADA)
 
 - Consists of a combination of control components used to achieve industrial objectives
+
   - HMI - Human-Machine Interface
   
   - Remote diagnostics and maintenance
+  
   - Sensors
+  
   - Actuators 
+  
   - Control
+  
 - They are distributed in insecure locations, often with microcontrollers with limited processing power
+
 - There could be several threats: 
 
   - Blocked/delayed flow of information
   
   - Unauthorized changes to instructions
+  
   - Inaccurate information
+  
   - ICS software or settings modified
+  
   - Interference with operation of equipment protection systems, safety systems and system settings
 
 == Mobile device security
@@ -1657,13 +1742,17 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Mobile device = Portable computing and communications device
 
 - Prior to the use of smartphones, user devices were clearly confined over defined perimeters
+
 - Now devices are constantly connected and there's always the need for more
+
 - Each has a full stack, from hardware/firmware/mobile OS/application, being an entire ecosystem
+
 - Millions of apps are available and each should conform to the organization security requirements; some examples
 
   - Rooting/Jailbreaking
   
   - Sideloading
+  
 - Many vulnerabilities to list, given they are outside of the corporate perimeter
 
 - _Bring Your Own Device (BYOD)_ - many organizations find convenient to have such a policy, inspecting devices and their features
@@ -1677,9 +1766,11 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 (On book: §10 - System Access)
 
 == System access and its functions
+
 - Capability that restricts access to business applications, denying or limiting access to specific users
 
 - _Functions_:
+
   - Authentication
   
     - Verifying the identity of user
@@ -1687,44 +1778,55 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
   - Authorization
   
     - Granting of access by a security administrator, based on a security policy
+    
   - Access control
   
     - Granting or denying specifying access requests
+    
 - Functions to establish rules and privileges and moderate access to an object in the system
+
 - Each user has to be authorized properly, defining access privileges
 
 == Authentication factors and means
 
 - Simplest way to access, including an identification and verification step
 
-- Authentication factors are methods
-  - The user has (possession factor) - tokens/smart cards/wireless tags
+- Authentication factors are methods:
+
+  - The user _has_ (_possession_ factor) - tokens/smart cards/wireless tags
   
-  - The user knows (knowledge factor) - passwords/PINs/tokens
-  - The user is or does (inherence factor) - biometrics
+  - The user _knows_ (_knowledge_ factor) - passwords/PINs/tokens
+  
+  - The user is or does (_inherence_ factor) - biometrics
 
 == Authenticators
   
 - Means used to confirm a user/process/device
 
 - Can be:
+
   - Multi-factor: use of one or more authentication means
   
   - Password-based: use of an ID and a password
+
+#pagebreak()
 
 == Vulnerability of a password
 
 - Instead of using a file retrieved by ID, to avoid storing password one can use a one-way hash function of the password
 
-#pagebreak()
-
 - Different kinds of attacks exist:
+
   - Dictionary attacks
   
   - Specific account
+  
   - Popular password
+  
   - Password guessing
+  
   - Hijacking
+  
   - Monitoring/Exploiting
   
 - Rely on hardware/SSO/password managers to avoid problems
@@ -1736,15 +1838,19 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Combine the password with a fixed length salt value using an hashing algorithm
 
 - In verification, the ID is used to see if result matches, therefore password is accepted
-- Salt usage
 
-  - prevents duplicate password
+- Salt usage:
+
+  - Prevents duplicate password
   
-  - increases difficulty for attacks
-  - nearly impossible to use same password for more systems
-  - is non-deterministic
+  - Increases difficulty for attacks
+  
+  - Nearly impossible to use same password for more systems
+  
+  - Is non-deterministic
 
 == Password cracking
+
 - Process of recovering secret password stored in a system
 
 - Many approaches like developing a dictionary to crack all words or precomputing hash values
@@ -1757,6 +1863,8 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 
 - File can become readable or physical security might be a problem, to use a policy to force users selecting passwords difficult to guess
 
+#pagebreak()
+
 == Possession-based authentication
 
 - Object the user possess for user authentications = hardware tokens
@@ -1764,21 +1872,29 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - _Memory cards_: have an electronic memory, store but do not process data, used for physical access alone
 
   - May require specific requirements and can be lost
+  
 - _Smart tokens_: have some specific physical characteristics, user interface, electronic interface and authentication protocol
 
   - Have a smart card, a microprocessor and a processing circuit
+  
 - _Electronic identity cards_: also called eID, they provide stronger proofs of identity, given thy are verified by a government
+
 - _One-Time Password (OTP) device_: it generates one time passwords, using a seed embedded
 
 == Biometric authentication
+
 - Based on the specific individual characteristics
 
 - Technically complex and expensive
+
 - Nature and requirements should be considered, being universal, distinct, permanent and collectable
+
 - Should meet some criteria:
+
   - Performance and accuracy
   
   - Difficulty of circumventing
+  
   - Acceptability by users
 
 == Access control
@@ -1786,13 +1902,18 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Gaining the ability to communicate or interact with a system. In other words, the process of granting or denying specific requests, via specific services and mechanisms
 
 - $"Access Control = Authentication + Authorisation"$
+
 - Has different _inputs_
 
   - Who issued the request
   
   - What is required
+  
   - What rules apply
+  
 - _System access_ deals with moderating access to system objects via authentication (establishing user identity) and authorisation (defining user privileges)
+
+#pagebreak()
 
 == Access control elements
 
@@ -1801,9 +1922,8 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
   - Entity capable of accessing objects
   
   - Typically considered accountable for their actions
+  
   - Can be creators of resources, groups of users or every user possible to access
-
-#pagebreak()
   
 - _Object_
 
@@ -1815,7 +1935,7 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 
 == Access control policies
 
-- Dictates what types of access are permitted
+- Dictate what types of access are permitted
 
 - Different categories exist:
 
@@ -1846,12 +1966,16 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 
 - Governed by a set of rules granting the subject access
 
+#pagebreak()
+
 == Customer access
 
 - Each customer needs to be uniquely approved and identified, both individual and in groups, responding to organization's business requirements
 
 - Each one should be aware and trained
+
 - Balance between customer satisfaction and meeting security requirements
+
 - Subject to the same types of technical controls, defining access privileges and selecting an appropriate authentication procedure
 
 #pagebreak()
@@ -1861,27 +1985,37 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 (On book - §11 - System Management)
 
 == Computer Security Incident Response Team (CSIRT)
+
 - Responsible for rapidly detecting incidents
 
 - Minimizing loss and destruction
+
 - Mitigating the weaknesses that were exploited
+
 - Restoring computing services
+
 - Calculates the added value to invest in safety resources
+
 - In small organizations can be the security team, in large ones they are two separate entities
 
 == Security Incidents
+
 - Any action that threatens one or more of the classic security services
 
 - Unauthorized access or modification
+
 - Procedures to manage them
 
   - Sorting, detecting, identifying, documenting
 
 == Managing, detecting and responding to incidents
+
 - Should be detected and reported
+
   - Manually (reports)
   
   - Automatically (with integrity/log tools)
+  
 - Triage
 
   - find the single point of contact for services and request additional information to categorize the incident and notify parts of the enterprise
@@ -1889,11 +2023,15 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Documentation to respond to them
 
   - Detail/Describe/Identify categories, personnel, circumstances
+  
   - Should immediately follow a response to the incidents
+  
     - What
     
     - How
+    
     - Details
+    
     - Impact
     
   - Allows for reviewing the risk assessment and strengthening controls
@@ -1901,33 +2039,49 @@ NIST SP 800-18 “Guide for Developing Security Pans for Federal Information Sys
 - Once an incident is opened, has to go through a number of states until no further action is required and is considered closed
 
 Security controls are in place throughout:
+
 - Hardware
 
 - Software
+
 - Firmware
 
 == Malware and protection
+
 - Program inserted into others compromising confidentiality, integrity, availability
 
 - Many types and should be protected against them as much as possible
+
   - Clickless
   
   - Fileless
+  
   - Adwares
+  
   - Worms/Viruses, etc.
+  
 - Businesses are experiencing more and more
+
 - Practical steps to take, avoiding attack and defending against different attack surfaces
+
 - Protection software to use to protect against them, automating actions as much as possible, verifying all defenses and collecting results from all points of attack
+
   - Scanning
   
   - Monitoring
+  
   - Identifying
+  
   - Disinfecting
+  
 - Software has to be accompanied by other measures like whitelist, firewalls and virtualization
 
 == Intrusion Detection
+
 - The sooner the intrusion is detected, the less damage can be done
+
 - When an intrusion happens, confidentiality is lost on all levels and collecting information can help assessing risks and other means of security
+
 - No exact distinction between an attack and normal use of resource: some overlap might happen 
 
 - Identification between legitimate and new user
@@ -1935,6 +2089,7 @@ Security controls are in place throughout:
 #pagebreak()
 
 - Approaches
+
   - _Misuse detection_: take the strange behaviour and consider it as normal attack, via usage of patterns and signatures. It cannot detect novel/unknown attacks
   
   - _Anomaly detection_: detect activities different from normal behavior and be able to detect previously unknown attacks, having a trade-off between false positives and false negatives
@@ -1981,7 +2136,7 @@ Security controls are in place throughout:
 
 == Network models
 
-There are (as you know at this point I hope) two main network models, both with layered architecture and packet switching technology:
+There are two main network models, both with layered architecture and packet switching technology:
 
 - ISO/OSI made up by 7 levels: application, presentation, session, transport, network, data link, physical
 
@@ -1989,15 +2144,15 @@ There are (as you know at this point I hope) two main network models, both with 
 
   - Each level creates data units
 
-  - Lower levels encapsulate higher levels' data, adding headers and trailers (encapsulation)
+  - Encapsulation process of adding headers/trailers at each layer
 
 - TCP/IP made up by 4 levels: application, transport, internet, network access
 
   - It's simpler than OSI and also widespread
 
-  - Each level creates data units, also doing encapsulation
+  - Networking devices - hubs, bridges, switches, routers
 
-  - At destination, there is decapsulation
+  - Topologies - bus, star, ring, mesh
 
 There are so many protocols one can see between the different levels of the two.
 
@@ -2103,62 +2258,55 @@ We can distinguish different devices:
 
 == Network management system
 
-Effective management requires a network management system that includes a comprehensive set of data and has different functions: fault/configuration/accounting/performance/security management.
+Effective management requires a #underline[network management system] that includes a comprehensive set of data and has different functions: fault/configuration/accounting/performance/security management.
 
-A network management system:
+- Is a collection of tools for network monitoring and control
 
-- is a collection of tools for network monitoring and control
+- Consists of incremental hardware and software additions implemented among existing network components
 
-- consists of incremental hardware and software additions implemented among existing network components
+- Is designed to view the entire network as a unified architecture
 
-- is designed to view the entire network as a unified architecture
-
-- the term element refers to network devices
+- The term element refers to network devices
 
 The principal components of a network management system:
 
--  Each network node contains a collection of software devoted to the network management task
+- NME = Network Management Entity
 
-  - Network Management Entity (NME)
+  - Software at each network node/device devoted to network management tasks
 
-- At least one host in the network is designated as the network control host, or manager
+  - Collects statistics, responds to commands, provides status information
 
-- The network control host includes a collection of software called the network management application (NMA)
+- NMA = Network Management Application
 
-  - Used to allow an authorized user to manage the network
-
-- Every other node in the network that is part of the network management system includes an NME, referred to as an agent
+  - Software running on the designated network control host/manager
+  
+  - Provides the user interface to allow authorized users to manage the network
 
 We can differentiate the configurations this way:
 
 - In a traditional centralized network management scheme:
 
-  - one host in the configuration has the role of a network management station
+  - One host in the configuration has the role of a network management station
 
 - In a decentralized network management scheme:
 
-  - there can be multiple top-level management stations, which are referred to as management servers
+  - There can be multiple top-level management stations, which are referred to as management servers
 
-  - for many of the agents, the management server delegates responsibility to an intermediate manager, which plays the role of manager
+  - For many of the agents, the management server delegates responsibility to an intermediate manager, which plays the role of manager
 
 Network management has the following architecture:
 
-- The element management layer provides an interface to the network devices
+- The Element Management Layer (EML) provides an interface to the network devices
 
-- The network management layer (NML) provides a level of abstraction that does not depend on the details of specific elements
+- The Network Management Layer (NML) provides a level of abstraction that does not depend on the details of specific elements
 
-- The service management layer is responsible for adding intelligence and automation to filtered events
+- The Service Management Layer (SML) is responsible for adding intelligence and automation to filtered events
 
 == Security management
 
-Security management:
-- is concerned with generating, distributing, and storing encryption keys
+#underline[Security management]:
 
-- is concerned with monitoring and controlling access
-
-- is involved with the collection, storage, and examination of audit records and security logs
-
-- provides facilities for protection of network resources and user information
+- handles encryption keys, monitors and controls access, protects network resources and applies security policies
 
 - has the purpose to support the application of security policies, including:
 
@@ -2210,7 +2358,7 @@ Network administrators create zones and policies.
 
 - By default no traffic is allowed between interfaces in different zones
 
-  - Zones are trusted inside and outside the network (demilitarized)
+  - Zones are trusted inside and untrusted outside the network (demilitarized)
 
 - The Admin must create policies for traffic
 
@@ -2236,7 +2384,7 @@ There are also two main kinds of controls to apply:
 
 == IP security (IPSec)
 
-The principal feature of IPSec is that it encrypts and/or authenticates all traffic at the IP level.
+The principal feature of #underline[IPSec] is that it encrypts and/or authenticates all traffic at the IP level.
 
 - All distributed applications are secured
 
@@ -2258,7 +2406,7 @@ The last two are used for Tunnel mode:
 
 == Virtual Private Network (VPN)
 
-A VPN is an encrypted connection over the Internet from a device to a network. The encrypted connection helps ensure that sensitive data is safely transmitted and prevents eavesdropping.
+A #underline[VPN] is an encrypted connection over the Internet from a device to a network. The encrypted connection helps ensure that sensitive data is safely transmitted and prevents eavesdropping.
 
 For VPNs, both authentication and encryption are generally desired because it is important both to:
 
@@ -2306,7 +2454,7 @@ Some clues about security:
 
 == Firewall
 
-The firewall is an important complement to host-based security services such as intrusion detection systems.
+The #underline[firewall] is an important complement to host-based security services such as intrusion detection systems.
 
 - Typically, a firewall is inserted between the premises network and the Internet to establish a controlled link 
 
@@ -2418,7 +2566,7 @@ There are different requirements for an organization:
 
 - maintenance personnel, implementing cryptographic mechanisms, employing disconnect verifications
 
-We conclude this run with Voice Over IP (VOIP) Networks:
+We conclude this run with Voice over IP (VoIP) Networks:
 
 - VoIP involves the transmission of speech across IP-based networks
 
@@ -2447,6 +2595,8 @@ The following are some specific threats to the use of VoIP:
 
 - Man-in-the-middle attack
 
+  - The attacker secretly relays and alters the communications between two parties who believe they are directly communicating with each other
+
 #pagebreak()
 
 = M3.5 - Cybersecurity Operations and Management - Logging, classification, analysis and mitigation
@@ -2455,13 +2605,9 @@ The following are some specific threats to the use of VoIP:
 
 == Technical vulnerability management
 
-A #underline[technical vulnerability] is:
+A #underline[technical vulnerability] is a hardware, firmware, communication, or software flaw that leaves an information processing system open to potential exploitation.
 
-- A hardware, firmware, communication, or software flaw that leaves an information processing system open to potential exploitation
-
-_Technical vulnerability management_ is designed to proactively mitigate or prevent the exploitation of technical vulnerabilities.
-
-Five key steps involved in vulnerability management:
+#underline[Technical vulnerability management ]is designed to proactively mitigate or prevent the exploitation of technical vulnerabilities. It involves five key steps:
 
 - Plan
 
@@ -3508,7 +3654,7 @@ Here we define the key concepts:
 
   - The “Deming” Cycle (or "PDCA")
   
-    - Planning (Plan) define the objectives that a management system must achieve (4-7 of the folloeing list)
+    - Planning (Plan) define the objectives that a management system must achieve (4-7 of the following list)
     
     - Insurance (Do) trust that the requirements will always be met and then pursue them (8 of following list)
     - Check (Check) identify the performances which are different from those expected (9 of following list)
@@ -4760,7 +4906,7 @@ Organizations use the FIPS 140-2 standard to ensure that selected hardware meets
 
 Internationally, the equivalent of FIPS 140-2 is ISO / IEC 19790: 2012 with the title ‘Security requirements for cryptographic modules’. 
 
-- ISO / IEC 24759: 2014 (Information technology -Security techniques - Test requirements for cryptographic modules) is the equivalent of the NIST Derived Test Requirements document
+- ISO / IEC 24759: 2014 (Information technology - Security techniques - Test requirements for cryptographic modules) is the equivalent of the NIST Derived Test Requirements document
 
 == Federal Information Processing Standard (FIPS) 140-3
 
@@ -4795,6 +4941,8 @@ The procedures relating to the National Scheme, described in detail in the Guide
 
   - as well as by all those (individuals, legal entities and any other subject) that operate within the national scheme.
 
+#pagebreak()
+
 In addition to the OCSI, the following entities operate within the National Scheme:
 
   - Safety Assessment Laboratories (LVS): carry out assessment activities under the control of the OCSI
@@ -4827,6 +4975,8 @@ Any conditions and tests are _included_ in the calls for tenders and contracts w
 With the Decree of the President of the Republic February 5, 2021, n. 54, the procedures, methods and terms of operation of the CVCN have been defined, as well as the procedures for verifying compliance with the provisions of decree-law no. 105/2019
 
   - as well as the technical criteria for identifying the categories of goods, systems and ICT services (to be carried out with DPCM) that will be subject to the evaluation of the CVCN in the event that they are intended for "strategic" assets
+
+#pagebreak()
 
 Recently the regulatory scenario in the field of cybersecurity was revisited with the issue of the decree-law of 14 June 2021, no. 82 converted into law no. 109, which defined the national cybersecurity architecture and established the National Cybersecurity Agency. 
 
@@ -4869,10 +5019,7 @@ The Payment Card Industry Security Standards Council is the body that issues the
 
 - By contacting a QSA (Qualified Security Assessor) company that issues the certification
 
-#pagebreak()
-
-A company must meet certain requirements to be PCI 
-DSS compliant. 
+A company must meet certain requirements to be PCI DSS compliant. 
 
 - These requirements concern the ways in which cardholder data is stored, processed and transmitted, but also how card data flows, how it is stored and which IT systems are used
 
@@ -4880,7 +5027,7 @@ DSS compliant.
 
 - The PCI-DSS certification was created to guarantee the protection of credit card holder data and indicates precise requirements for procedures, network architecture and software that must be met by the companies that manage credit card numbers
 
-- Hackers want cardholder data. By obtaining the Primary Account Number (PAN=cardholder data) and sensitive authentication data, a thief can impersonate the cardholder, use the card, and steal the cardholder’s identity
+- Hackers want cardholder data. By obtaining the Primary Account Number (PAN = cardholder data) and sensitive authentication data, a thief can impersonate the cardholder, use the card, and steal the cardholder’s identity
 
 Sensitive cardholder data can be stolen from many places:
 
@@ -4900,6 +5047,8 @@ Cardholder data can be secured where it is captured at the point of sale and as 
 - Payment card data storage and transmission
 - Payment card data stored in paper-based records
 - Online payment applications and shopping carts
+
+#pagebreak()
 
 To conclude:
 
@@ -5138,7 +5287,7 @@ Adequate _clauses_, to be used in the negotiation phase when defining contracts 
 
 == Cyber Career Pathways Tool
 
-NICE framework defines 52 roles. They are divided in categories and specialty areas. This #link("https://niccs.cisa.gov/workforce-development/cyber-career-pathways")[online tool] offers an interactive way for working professionals (cyber and non-cyber), employers, students, and _recent grads_ to explore and build their own career roadmap across the 52 different NICE Framework work roles.
+The NICE framework defines 52 roles, divided into categories and specialty areas. The #link("https://niccs.cisa.gov/workforce-development/cyber-career-pathways")[Cyber Career Pathways Tool] is an interactive online resource for professionals, employers, and students to explore and build career roadmaps based on the NICE Framework.
 
 - Users can select up to _five_ work roles to learn more about their shared _skillsets_, alignment to the Cyber Skill _Communities_, or related specialization and functions.
 
@@ -5152,11 +5301,11 @@ NICE framework defines 52 roles. They are divided in categories and specialty ar
 
 #underline[DoD Directive 8140], signed August 2015, establishes a definition for the _cyber workforce_ and outlines Component roles and responsibilities for the management of the _DoD cyber workforce_. 
 
-- This was a replacement of 8570.01-M whose guidance and procedures is still in effect until such a time it is replaced for the training, certification, and management of all government employees and contractors who conduct cybersecurity functions
+- This was a replacement of 8570.01-M whose guidance and procedures is still in effect 
 
 - The individuals who hold these work roles are required to carry an _approved certification_ for their job classification
 
-- This directive affects any full- or part-time military service member in the U.S., contractor, or local nationals with privileged access to a DoD information system performing information assurance (security) functions – regardless of job or occupational series
+- This directive affects any full- or part-time military service member in the U.S., contractor, or local nationals with privileged access to a DoD information system performing information assurance (security) functions
 
 - DoDD 8140 requires the following:
 
@@ -5291,86 +5440,83 @@ An analysis of cybersecurity skills needs requires a widely adopted _taxonomy_ o
 
 == Accreditation body
 
-Accreditation is a third-party attestation related to a conformity assessment body (or ‘CAB’) conveying formal demonstration of its competence to carry out specific conformity assessment tasks.
+#underline[Accreditation] is a third-party attestation related to a conformity assessment body (or "CAB") conveying formal demonstration of its competence to carry out specific conformity assessment tasks.
 
-- So, accreditation body is an authoritative body that performs accreditation. The authority of an accreditation body is generally derived from government.
+- Accreditation bodies are authoritative bodies that perform accreditation. The authority of an accreditation body is generally derived from government.
 
-  - I.e. Accredia and Ukas are the accreditation bodies officially recognized, respectively, in Italy and UK
+  - Examples: Accredia (Italy) and Ukas (UK) are officially recognized accreditation bodies in their respective countries.
 
 == Conformity Assessment Body (CAB)
 
-It is the body that performs conformity assessment services
+A #underline[Conformity Assessment Body (CAB)] is an organization that performs conformity assessment services. It is important to note that an accreditation body is not a CAB.
 
-- Please note: An accreditation body is not a conformity assessment body
+CABs, also known as Certification Bodies (e.g., CSQA, Bureau Veritas, BSI), can certify:
 
-CABs, also known as Certification Bodies (e.g. CSQA, Bureau Veritas, BSI, …) can certify, according to the reference standard ISO/IEC 17024:2012:
+- the competence of people according to ISO/IEC 17024:2012
 
-- the competence of people
+- management systems, such as Quality (ISO 9001) and ISMS (ISO/IEC 27001), according to ISO 19011 and ISO/IEC 17021-1
 
-- according to the reference standard ISO19011 and ISO/IEC 17021-1, management systems, like Quality (ISO9001) ISMS (ISO/IEC 27001)
-
-- according to the standard ISO/IEC 17065, also products and services
+- products and services according to ISO/IEC 17065
 
 == IAF and Mandatory Documents
 
-The International Accreditation Forum (IAF) is a worldwide association of accreditation bodies and other bodies interested in conformity assessment in the fields of management systems, products, processes, services, personnel, validation and verification and other similar programmes of conformity assessment.
+The #underline[International Accreditation Forum (IAF)] is a worldwide association of accreditation bodies and other bodies interested in conformity assessment in various fields.
 
-- IAF facilitates trade and supports regulators by operating a worldwide mutual recognition arrangement among Accreditation Bodies (ABs) in order that the results issued by Conformity Assessment Bodies (CABs) accredited by IAF members are accepted globally
+- IAF facilitates trade and supports regulators by operating a worldwide mutual recognition arrangement among Accreditation Bodies (ABs), ensuring results issued by accredited CABs are accepted globally.
 
-The objective of #underline[Mandatory Document 13:2020] is to enable Accreditation Bodies to harmonize their application of ISO/IEC 17011:2017 for the accreditation of bodies providing audit and certification to ISO/IEC 27001
+#underline[Mandatory Document 13:2020] aims to enable ABs to harmonize their application of ISO/IEC 17011:2017 for the accreditation of bodies providing audit and certification to ISO/IEC 27001.
 
-- The document specifies the areas of knowledge that the Accreditation Body shall define for specific functions for the accreditation of bodies providing auditing and certification of ISMS
+- It specifies areas of knowledge that the AB shall define for specific functions in the accreditation of bodies auditing and certifying ISMS.
 
-- The knowledge requirements detailed in this annex are complementary to the general competency required for each function within an Accreditation Body
+- The knowledge requirements are complementary to the general competency required for each function within an AB.
 
-- Generally, each assessor involved in ISMS assessment shall have a level of the knowledge described in A1 to A5 in Annex A. The knowledge in A6 and A7 can be held within the team as a whole
+- Generally, each assessor involved in ISMS assessment shall have knowledge described in A1 to A5 of Annex A, while knowledge in A6 and A7 can be held within the team.
 
-CAB’s client process and operation associated with ISMS cover:
+CAB’s _client process and operation_ associated with ISMS cover:
 
-- typical business activities related to the technical area (see ISO/IEC 17021-1:2015, clause 7.1.2)
+- _typical_ business activities related to the technical area (see ISO/IEC 17021-1:2015, clause 7.1.2)
 
-- information and communication technology specific to the technical area
+- information and communication technology _specific_ to the technical area
 
 - information security technologies and practices specific to the technical area, especially identification of information security related threats and vulnerabilities and related mitigations and controls
 
-- related legal requirements
+- related _legal_ requirements
 
 Legal requirements identified here are those regulations that the organization that is the subject of the witnessed audit would be expected to comply with either for the information security field or country/state/province within 
 which they operate.
 
-Consider also IAF MD26:2023:
-
-- it provides for Transition Requirements for ISO/IEC 27001:2022
+#underline[IAF MD26:2023] provides transition requirements for ISO/IEC 27001:2022.
 
 == ISO/IEC 17024:2012 - Conformity assessment 
 
-ISO/IEC 17024:2012 “has been developed with the objective of 
-achieving and promoting a globally accepted benchmark for organizations operating certification of persons. 
+#underline[ISO/IEC 17024:2012] “has been developed with the objective of 
+_achieving_ and _promoting_ a globally accepted benchmark for organizations operating _certification of persons_". 
 
-- Certification for persons is one means of providing assurance that the certified person meets the requirements of the certification scheme
+- Certification for persons is one means of providing assurance that the _certified person meets the requirements of the certification scheme_
 
-- Confidence in the respective certification schemes for persons is achieved by means of a globally accepted process of assessment and periodic re-assessments of the competence of certified persons
+- Confidence in the respective certification schemes for persons is achieved by means of a globally accepted process of assessment and _periodic re-assessments_ of the competence of certified persons
 
 However, it is necessary to distinguish between situations where certification schemes for persons are justified and situations where other forms of qualification are more appropriate.
 
-- The development of certification schemes for persons, in response to the ever increasing velocity of technological innovation and growing specialization of personnel, can compensate for variations in education and training and thus facilitate the global job market
+- The development of certification schemes for persons can compensate for variations in education and training and thus facilitate the global job market
 
 - Alternatives to certification can still be necessary in positions where public services, official or governmental operations are concerned
 
-In contrast to other types of conformity assessment bodies, such as management system certification bodies, one of the characteristic functions of the certification body for persons is to conduct an examination, which uses objective criteria to measure competence and scoring. 
+In contrast to other types of conformity assessment bodies,  one of the characteristic functions of the certification body for persons is to conduct an examination, which uses objective criteria to measure competence and scoring. 
 
-- While it is recognized that such an examination, if well planned and structured by the certification body for persons, can substantially serve to ensure impartiality of operations and reduce the risk of a conflict of interest, additional requirements have been included in this International Standard
+- While it is recognized that such an examination, if well planned and structured by the certification body for persons, can substantially serve to ensure impartiality of operations and reduce the risk of a conflict of interest
 
-In either case, this International Standard can serve as the basis for the recognition of the certification bodies for persons and the certification schemes under which persons are certified, in order to facilitate their acceptance at the national and international levels. 
+- In either case, this International Standard can serve as the basis for the recognition of the certification bodies for persons and the certification schemes under which persons are certified
 
 - Only the harmonization of the system for developing and maintaining certification schemes for persons can establish the environment for mutual recognition and the global exchange of personnel
 
-This International Standard specifies requirements which ensure that certification bodies for persons operating certification schemes for persons operate in a consistent, comparable and reliable manner. 
+- This International Standard specifies requirements which ensure that certification bodies for persons operating certification schemes for persons operate in a consistent, comparable and reliable manner. 
 
 - The requirements in this International Standard are considered to be general requirements for bodies providing certification of persons
 
-Certification of persons can only occur when there is a 
-certification scheme. The certification scheme is designed to supplement the requirements included in this International  
+#pagebreak()
+
+Certification of persons can only occur when there is a certification scheme. The certification scheme is designed to supplement the requirements included in this International Standard.
 
 - Standard and include those requirements that the market needs or desires, or that are required by governments. 
 
@@ -5378,52 +5524,54 @@ certification scheme. The certification scheme is designed to supplement the req
 
 - Many certifications for people (even when they don’t follow an ISO based certification scheme) are ISO/IEC 17024:2012 compliant
 
-ISO/IEC 17024:2012 contains principles and requirements for a body certifying persons against specific requirements, and includes the development and maintenance of a certification scheme for persons.
+ISO/IEC 17024:2012 contains several principles and requirements:
 
-- What does a "body" do?
+- Certification body
 
-  - Certification body (in this case ‘for persons’) is the organization that conduits the certification process.
+  - The organization that conduits the certification process
 
-- What is a certification process? 
+- Certification process
 
- - It is a set of activities by which a certification body determines that a person fulfills certification requirements (ISO/IEC 17024 - 3.3), including application, assessment, decision on certification, certification and use of certificates (ISO/IEC 17024 - 3.5) and logos/marks
+ - A set of activities by which a certification body determines that a person fulfills certification requirements (ISO/IEC 17024 - 3.3), including application, assessment, decision on certification, certification and use of certificates (ISO/IEC 17024 - 3.5) and logos/marks
 
-- What is a certification scheme?
+- Certification scheme
 
   - It is competence (ISO/IEC 17024 -3.6) and other requirements related to specific occupational or skilled categories of persons
   
   - Certification requirements are a set of specified requirements, including requirements of the scheme to be fulfilled in order to establish or maintain certification
 
-- What is a "scheme owner"?
+- Scheme owner
 
   - It is the organization responsible for developing and maintaining a certification scheme (ISO/IEC 17024 - 3.2). The organization can be the certification body itself, a governmental authority, or other
 
-- What is a "certificate", by the means of the standard?
+- Certificate
 
   - A document issued by a certification body under the provisions of this International Standard, indicating that the named person has fulfilled the certification requirements (ISO/IEC 17024 - 3.3)
 
-- What is ‘competence’?
+- Competence
 
-  - The ability to apply knowledge and skills to achieve intended results [where ‘results’ can be, for instance, tasks or other activities mentioned in the previous lessons]
+  - The ability to apply knowledge and skills to achieve intended results (where "results" can be, for instance, tasks or other activities mentioned in the previous lessons)
 
-- What is ‘qualification’?
+- Qualification
 
   - A demonstrated education, training and work experience, where applicable
 
-The certification of the competence of the auditors / lead auditors of the management systems is regulated by ISO/IEC 17024: 2012 to which the reference schemes must be added (i.e. the standards for which the candidate requests recognition of competence, e.g. the ISO / IEC 27001: 2013 and ISO / IEC 17021-1: 2015). 
+The certification of competence for management system auditors/lead auditors is regulated by ISO/IEC 17024:2012 and the relevant standards (e.g., ISO/IEC 27001:2013 and ISO/IEC 17021-1:2015) for which the candidate seeks recognition of competence.
   
 == Certified ISO/IEC 27001 auditor 
 
-The ISMS Auditor / Audit Group Manager is the professional figure who conducts audits on Information Security Management Systems according to international standards: UNI EN ISO 19011, UNI CEI EN ISO / IEC 27001, UNI CEI EN ISO / IEC 17021
+The #underline[ISMS Auditor / Audit Group Manager] is a professional who conducts audits on Information Security Management Systems according to international standards: ISO 19011, ISO/IEC 27001, and ISO/IEC 17021.
 
-- The ISMS Auditor / Head of the Audit Group must demonstrate that they have the competencies (in terms of Skills, Knowledge and Personal Behavior) to professionally carry out the activities related to the conduct of an ISMS audit
+- This figure must demonstrate that they have the competencies (in terms of Skills, Knowledge and Personal Behavior) to professionally carry out the activities related to the conduct of an ISMS audit
 
 The following is an example of a certification scheme:
 
 - principles of the audit activity
 
 - management of an audit program
+
 - audit activities
+
 - competence and evaluation of auditors
 
 Audit planning which must include: 
@@ -5436,27 +5584,34 @@ Audit planning which must include:
 
 - preparation of the audit and team meeting
 
-- Notes on the preliminary audit purposes
+- notes on the preliminary audit purposes
 
-  - Preparation and use (with examples of forms) of checklists during the audit phases
-  - Audit meeting preparations, with examples
-  - Content, program and conduct of the opening and closing meetings
+  - preparation and use (with examples of forms) of checklists during the audit phases
+  
+  - audit meeting preparations, with examples
+  
+  - content, program and conduct of the opening and closing meetings
 
 Auditor behavior in carrying out the audit, including relations with the company, the importance of objective evidence:
 
 - detection, drafting and communication of anomalies
 
 - criteria for the formulation and methodologies for identifying the findings and their classification 
+
 - follow-up activities
+
 - notes on risk management as applicable in the ISMS sector
+
 - notes on compliance with the legal requirements on health and safety by the Audit Group
+
 - role differences between Auditors and Audit Group Managers, in the management of the audit and of team members
+
 - furthermore, the knowledge and skills reported, by way of example, in the UNI EN ISO 19011: 2018 standard
 
 Specific legal requirements for the country where the 
 auditor will operate (see IAF requirements for ABs) are present.
 
-_Skills_
+- _Skills_
 
 The ISMS Auditor / Audit Group Manager must be able to:
 
@@ -5470,7 +5625,10 @@ The ISMS Auditor / Audit Group Manager must be able to:
 - carry out presentations and interviews
 - identify laws, regulations, directives, etc., relating to the organizations to be audited
 
-_Personal behavior_
+Moving on:
+
+- _Personal behavior_
+
 Auditors should possess the necessary qualities that enable them to act in accordance with the audit principles. In particular, the Auditor should be:
 
 - respectful of ethical principles (fair, truthful, sincere, honest and confidential)
@@ -5488,7 +5646,7 @@ Auditors should possess the necessary qualities that enable them to act in accor
 - sensitive to cultural diversity (attentive and respectful of the culture of the audited organization)
 - collaborative (able to interact effectively with others, including members of the audit team and the staff of the audited organization)
 
-Other things;
+Other things:
 
 - _Educational qualification_
 
@@ -5517,7 +5675,7 @@ Other things;
       - or, in the case of part I or II audits, having carried out at least 4 of the 5 audits for a total of at least 20 days of audit experience, as an auditor under the direction and guidance of an Audit Group Manager certified by the certification of personnel or qualified by a System Certification Body
       
     - The audits in training can be included in those indicated above
-  
+    
   - ISMS Head of the Audit Group
   
     - It is necessary to document, in addition to the auditor's requirements, the following audit experience gained, in the last 2 years, as Head of at least 3 complete Audits, not all internal and on separate Information Security Management Systems
@@ -5532,21 +5690,13 @@ An exam is therefore envisaged for the issue of personal certification, the crit
 
 == Conclusions
 
-- The checks carried out by the accredited bodies for the certification of people, in the face of standards and documents shared between the interested parties, are the added value of certification compared to other forms of certification
+- Accredited certification bodies' assessments, based on shared standards and documents, provide added value compared to other forms of certification.
 
-- To emerge in an increasingly competitive job market, especially for professionals who do not belong to orders and colleges, it is no longer sufficient to certify one's competence with a degree and curriculum vitae
+- In a competitive job market, demonstrating competence through a degree and CV alone may not suffice; tools to demonstrate and maintain skills are crucial.
 
-- The skills acquired through the training and professional path can be perfected with experience and practice: a tool with which to demonstrate the possession and maintenance of skills becomes indispensable
+- Third-party certification ensures independence, impartiality, and the professional's competence, encouraging continuous improvement of knowledge and skills.
 
-- The third-party certification ensures the independence and impartiality of the professional's evaluation and guarantees its competence, as it pushes the person to possess, maintain over time and continuously improve their knowledge and skills
-
-- The certification body, for the purpose of issuing the certificate, verifies and certifies possession of the professional's requirements based on the technical standards and other documents and regulations applicable to the specific activity
-
-  - These can be requested by trade associations or by national law, when mandatory certification is required
-
-- The plus of accredited certification compared to other forms of certification is given by the multiple checks carried out by the accredited body
-
-- Furthermore, accredited professionals are normally registered in the AB databases. Among the advantages of certification issued under accreditation there is the international recognition of professional competence
+- Accredited certification offers advantages such as multiple checks by the accredited body, registration of professionals in AB databases, and international recognition of professional competence
 
 #pagebreak()
 
@@ -5556,70 +5706,83 @@ We have seen that standards and frameworks are a valid tool to guide organizatio
 
 - Since companies are also made up of people, taking into account the human resources available and not, governance and competence can be very close issues
 
-- There are specific certifications in this field to demonstrate the knowledge, the skills and ability of people who need to master how IT companies must be organized by adopting best practices and more
+- There are specific certifications in this field to demonstrate the knowledge, the skills and ability of people who need to master how IT companies must be organized by adopting best practices
 
 The organization of a company, starting from the definition of its objectives, is a fundamental skill for many professional figures (including those profiles who do not have to establish the strategic address or manage parts of the organization).
 
 - The objectives of IT companies are specific to this type of activity and they must be integrated within the overall objectives
 
-- Information is a key resource for all enterprises, and from the time that information is created to the moment that it is destroyed, technology plays a significant role. Information technology is increasingly advanced and has become pervasive in enterprises and in social, public and business environments
+- Information is a key resource for all enterprises and technology plays a significant role. Information technology is increasingly advanced and has become pervasive in enterprises and all kinds of environments
 
 == COBIT 5 
 
-#underline[COBIT 5] provides a comprehensive framework that assists enterprises in achieving their objectives for the governance and management of enterprise IT. Simply stated, it can help enterprises create optimal value from IT by maintaining a balance between realizing benefits and optimizing risk levels and resource use. 
+#underline[COBIT 5] provides a comprehensive framework that assists enterprises in achieving their objectives for the governance and management of enterprise IT. 
+
+Simply stated, it can help enterprises create optimal value from IT by maintaining a balance between realizing benefits and optimizing risk levels and resource use. 
 
 - This Framework enables IT to be governed and managed in a holistic manner for the entire enterprise, taking in the full end-to-end business and IT functional areas of responsibility, considering the IT-related interests of internal and external stakeholders
 
 - COBIT 5 is generic and useful for enterprises of all sizes, whether commercial, not-for-profit or in the public sector
 
-There are different principles to consider:
+There are different principles to consider (some useful reference for this #link("https://www.isaca.org/resources/news-and-trends/industry-news/2017/applying-the-goals-cascade-to-the-cobit-5-principle-meeting-stakeholder-needs")[here]:
 
-- Principle 1, Meeting Stakeholder Needs
+- Principle 1, _Meeting Stakeholder Needs_
 
-  - It introduces the COBIT 5 goals cascade. The enterprise goals for IT are used to formalize and structure the stakeholder needs
+  - It introduces the COBIT 5 goals cascade. The enterprise goals for IT are used to _formalize_ and _structure_ the stakeholder needs
   
-  - Enterprise goals can be linked to IT-related goals, and these IT-related goals can be achieved through the optimal use and execution of all enablers, including processes
+  - Enterprise goals can be linked to IT-related goals, and these IT-related goals can be achieved through the optimal use and execution of all enablers, including _processes_
   
-  - This set of connecting goals is called the COBIT 5 goals cascade. The chapter also provides examples of typical governance and management questions that stakeholders may have about enterprise IT
+  - This set of connecting goals is called the _COBIT 5 goals cascade_. The chapter also provides examples of typical governance and management questions that stakeholders may have about enterprise IT
+
+#pagebreak()
 
   - Different steps to consider here
 
-    - Step 1. Stakeholder Drivers Influence Stakeholder Needs Stakeholder needs are influenced by a number of drivers, e.g., strategy changes, a changing business and regulatory environment, and new technologies
+    - Step 1. Stakeholder _Drivers_ Influence Stakeholder _Needs_ 
     
-    - Step 2. Stakeholder Needs Cascade to Enterprise Goals
-    - Step 3. Enterprise Goals Cascade to IT-related Goals
-    - Step 4. IT-related Goals Cascade to Enabler Goals
+      - Stakeholder needs are influenced by a number of drivers, e.g., strategy changes, a changing business and regulatory environment, and new technologies
+    
+    - Step 2. Stakeholder _Needs_ Cascade to _Enterprise_ Goals
+    
+    - Step 3. Enterprise Goals Cascade to _IT-related_ Goals
+    
+    - Step 4. IT-related Goals Cascade to _Enabler_ Goals
 
-- Principle 2, Covering the Enterprise End-to-end 
+- Principle 2, _Covering the Enterprise End-to-end_
 
   - It explains how COBIT 5 integrates governance of enterprise IT into enterprise governance by covering all functions and processes within the enterprise
 
-- Principle 3, Applying a Single Integrated Framework
+- Principle 3, _Applying a Single Integrated Framework_
 
   - It describes briefly the COBIT 5 architecture that achieves the integration
 
-- Principle 4, Enabling a Holistic Approach. 
+- Principle 4, _Enabling a Holistic Approach_
 
-  - Governance of enterprise IT is systemic and supported by a set of enablers. In this chapter, enablers are introduced and a common way of looking at enablers is presented: the generic enabler model
+  - Governance of enterprise IT is _systemic_ and supported by a set of enablers. In this chapter, enablers are introduced and a common way of looking at enablers is presented: the generic enabler model
 
-  - Enablers are broadly defined as anything that can help to achieve the objectives of the enterprise. The COBIT 5 framework defines seven categories of enablers:
+  - Enablers are broadly defined as anything that can help to achieve the _objectives_ of the enterprise. The COBIT 5 framework defines _seven_ categories of enablers:
   
     – Principles, Policies and Frameworks
     
     – Processes
+    
     – Organizational Structures
+    
     – Culture, Ethics and Behavior
+    
     – Information
+    
     – Services, Infrastructure and Applications
+    
     – People, Skills and Competencies
+    
+- Principle 5, _Separating Governance From Management_
 
-- Principle 5, Separating Governance From Management
-
-  - It discusses the difference between management and governance, and how they interrelate. The high-level COBIT 5 process reference model is included as an example
+  - It discusses the difference between management and governance, and how they _interrelate_. The high-level COBIT 5 process reference model is included as an example
 
   – Governance
 
-    - Governance ensures that stakeholder needs, conditions and options are evaluated to determine balanced, agreed-on enterprise objectives to be achieved; setting direction through prioritization and decision making; and monitoring performance and compliance against agreed-on direction and objectives
+    - Governance ensures that stakeholder needs, conditions and options are evaluated to determine _balanced, agreed-on_ enterprise objectives to be _achieved_; setting direction through _prioritization_ and _decision making_
     
     - In most enterprises, overall governance is the responsibility of the board of directors under the leadership of the chairperson
     
@@ -5627,11 +5790,14 @@ There are different principles to consider:
 
   – Management
   
-    - Management plans, builds, runs and monitors activities in alignment with the direction set by the governance body to achieve the enterprise objectives
+    - Management _plans, builds, runs_ and monitors activities in alignment with the direction set by the governance body to achieve the enterprise objectives
     
     - In most enterprises, management is the responsibility of the executive management under the leadership of the chief executive officer (CEO)
 
-Implementation Guidance describes how the appropriate environment can be created, the enablers required, typical pain points and trigger events for implementation, and the implementation and continual improvement life cycle. 
+_Implementation Guidance_ describes how the appropriate environment can be created, the enablers required, typical pain points and trigger events for implementation, and the implementation and continual improvement life cycle. 
+
+- Consider the COBIT 5 Process Capability Model in the COBIT 
+Assessment Programme approach #link("http://www.isaca.org/cobit-assessment-programme")[here].
 
 COBIT 5 was developed taking into account a number of other
 standards and frameworks. 
@@ -5639,23 +5805,28 @@ standards and frameworks.
 - TOGAF for modeling the overall structure of the system and its components
 
 - ITIL for IT Service Management
-- ISO27000 family for information security
-- ISO31000 for risk management
+
+- _ISO27000 family for information security_
+
+- _ISO31000 for risk management_
+
 - PMBOK for project management and control
 
 == IT Governance and Management certifications (ISACA - COBIT)
 
-- COBIT 5 Assessor
+- COBIT 5 _Assessor_
 
-  - Demonstrates mastery in understanding and performing a formal Process Capability Assessment
+  - Demonstrates mastery in understanding and performing a formal _Process Capability Assessment_
   
-  - Holders ensure stronger, more reliable control over internal processes and provide stakeholders a clear line of sight into process capabilities, allowing IT leaders to redirect or liberate resources—from service delivery to designing and implementing technology-enabled, information-rich and transformed business process – to increase innovation and value for the enterprise
+  - Holders ensure stronger, more reliable control over internal processes and provide stakeholders a clear line of sight into process capabilities, allowing IT leaders to redirect or liberate resources to increase innovation and value for the enterprise
 
-- COBIT 5 Foundation
+- COBIT 5 _Foundation_
 
   - Affirms holders’ understanding of COBIT principles and concepts. Holders understand the IT management issues organizations face today and know how to use COBIT to respond to these challenges
   
   - These professionals have used the elements of COBIT, in practice, and are prepared to recommended applications of COBIT for enterprise-wide project
+
+#pagebreak()
 
 The COBIT Foundation Certificate Exam ensures that you 
 understand:
@@ -5664,57 +5835,59 @@ understand:
 
 - The value derived from IT, necessary resources, and potential risks in the process of building a mature relationship between the business and IT.
 
-- The different types of IT governance frameworks such as ITIL, NIST etc., including the benefits of each and how they work
+- The _different_ types of IT governance frameworks such as ITIL, NIST etc., including the benefits of each and how they work
 
-- COBIT 5 Implementation
+- COBIT 5 _Implementation_
 
   - Confirms holders’ ability to understand and apply the elements of COBIT 5 across an enterprise. These professionals have mastered the approach to implementing the "Governance of Enterprise Information Technology or (GEIT)" based on a continual improvement life cycle. 
   
   - These professionals have demonstrated the understanding of how COBIT 5 should be tailored to suit an enterprise’s specific needs
 
-Showcases the holder’s understanding of the goals and content of the Cybersecurity Framework (CSF) and how to apply the seven Cybersecurity Framework implementation steps using COBIT. In order to obtain this credential, professionals must be able to show that they have successfully completed the COBIT 5 Foundation Exam.
+It can be possible to implement the NIST CSF Framework using COBIT 5:
+
+- Showcases the holder’s understanding of the goals and content of the _Cybersecurity Framework (CSF)_ and how to apply the seven Cybersecurity Framework implementation steps using COBIT
+
+- In order to obtain this credential, professionals must be able to show that they have successfully completed the COBIT 5 Foundation Exam.
 
 == IT Security Certification for people
 
-Why certification is important:
+Why _certification is important_:
 
-- Job Security
+- _Job Security_
 
   - 82% of organizations prefer hiring candidates with certifications. The right certification could signal to HR teams and hiring managers that you have the specific job-role skills they need
 
-- A possible obstacle that is encountered in the search for professional figures in the field of cybersecurity is that of not having the people who are able to evaluate and measure the skills that are needed, especially for those organizations that are starting to have to build their own staff because they do not still have one
+  - A possible _obstacle_ that is encountered in the search for professional figures in the field of cybersecurity is that of not having the _people_ who are able to evaluate and measure the skills that are needed
 
-- In these cases, but not limited to, certification constitutes a credential that helps people to be recognized as competent by different employers and contexts
+    - especially for those organizations that are starting to have to _build_ their own staff because they do not still have one
 
-  - But there are many certifications and different bodies and companies that issue them. It is not always easy to find your way around in this world
+- In these cases certification constitutes a credential that helps people to be recognized as competent by different employers and contexts
 
-- The urgency to find experts who know how to defend data and IT technologies from possible cyber-attacks does not help and can lead to a poor consideration of real needs of the company
+  - But there are many _certifications_ and different _bodies_ and _companies_ that issue them. It is not always easy to find your way around in this world
+
+- The _urgency_ to find experts who know how to defend data and IT technologies from possible cyber-attacks does not help and can lead to a poor consideration of real needs of the company
   
-  - On the one hand, therefore, organizations must clarify, based on the type of data processed, the type of technologies, the size, the people and all the other factors that we have mentioned so far, which (and how many) are the people to be included.
+  - On the one hand organizations must clarify, based on the type of data processed, the type of _technologies_, the size, the people, specifically _which (and how many)_ are the people to be included
   
-  - On the other hand, people themselves must build a path that possibly reflects their inclinations and passions, but also a coherent and realistic set of skills as close to demand as possible
+  - On the other hand, people themselves must build a path that possibly reflects their _inclinations_ and _passions_, but also a coherent and _realistic_ set of skills as close to demand as possible
 
-- Enterprise Security
+- _Enterprise Security_
 
   - Certifications provide confirmation of the skills needed to combat breaches and mitigate threats to the enterprise
   
   - 94% of cybersecurity practitioners believe their certs have better prepared them for their current role, allowing them to successfully protect their organization
 
-- Proven Ability
+- _Proven Ability_
 
-  - If you have a certification proving you've mastered a specific skill-set, both employers and your industry peers know that you've got what it takes
+  - If you have a certification proving you've mastered a specific skill-set, both _employers_ and your _industry_ peers know that you've got what it takes
 
-#pagebreak()
+- _Personal Validation_
 
-- Personal Validation
+  - Setting goals to learn new skills and pass a certification exam can be a _challenging_ and _rewarding_ internal experience
 
-  - Setting goals to learn new skills and pass a certification exam can be a challenging and rewarding internal experience. 
+  - Proving to yourself that you can master skills and conquer the exam creates a sense of purpose and personal satisfaction
 
-  - Proving to yourself that you can master skills and conquer the exam creates a sense of purpose and personal satisfaction.
-
-  - In the following slides we’ll see many certifications for people among the most valued in the field
-
-#underline[CompTIA] is a vendor-neutral, independent source of information on a wide range of technology topics, including cybersecurity; education, training and certification of the global tech workforce; new and emerging technologies; legislation and policies affecting the industry and workforce data, development and trends.
+#underline[CompTIA] is a vendor-neutral, independent source of information on a wide range of technology topics, including cybersecurity; education/training, new and emerging technologies; legislation and policies affecting the industry and workforce data, development and trends.
 
 - It has four IT certification series that test different knowledge standards – from entry-level to expert.
 
@@ -5722,9 +5895,12 @@ Why certification is important:
 
   - Core
   
-  - Cybersecurity
+  - _Cybersecurity_
+  
   - Infrastructure
+  
   - Data and Analysis
+  
   - Additional Professional
 
 #underline[CompTIA Security+] is a global certification that validates the baseline skills necessary to perform core security functions and pursue an IT security career.
@@ -5733,9 +5909,9 @@ Why certification is important:
 
 - Regulators and government rely on ANSI accreditation, because it provides confidence and trust in the outputs of an accredited program. Over 2.3 million CompTIA ISO/ANSI-accredited exams have been delivered since January 1, 2011
 
-#underline[CompTIA Cybersecurity Analyst (CySA+)] is an IT workforce certification that applies behavioral analytics to networks and devices to prevent, detect and combat cybersecurity threats through continuous security monitoring.
+#underline[CompTIA Cybersecurity Analyst (CySA+)] is an IT workforce certification that applies behavioral analytics to networks and devices to prevent, detect and combat cybersecurity _threats_ through continuous security _monitoring_.
 
-#underline[CompTIA CySA+] meets the ISO 17024 standard and is approved by U.S. Department of Defense to fulfill Directive 8570.01-M requirements. 
+#underline[CompTIA CySA+] meets the _ISO 17024 standard_ and is approved by U.S. Department of Defense to fulfill Directive 8570.01-M requirements. 
 
   - It is compliant with government regulations under the Federal Information Security Management Act (FISMA). 
   
@@ -5750,7 +5926,7 @@ Why certification is important:
     - Suggest preventative measures
     - Effectively respond to and recover from incidents
 
-#underline[CompTIA Advanced Security Practitioner (CASP+)] is an advanced-level cybersecurity certification for security architects and senior security engineers charged with leading and improving an enterprise’s cybersecurity readiness.
+#underline[CompTIA Advanced Security Practitioner (CASP+)] is an advanced-level cybersecurity certification for _security architects_ and _senior security engineers_ charged with leading and improving an enterprise’s cybersecurity readiness.
 
 Successful candidates will have the knowledge required to:
 
@@ -5767,8 +5943,12 @@ CASP+ is compliant with ISO 17024 standard and approved by the US DoD to meet di
 #underline[The GCLD certification] validates a practitioner's ability to implement preventive, detective, and reactionary techniques to defend valuable cloud-based workloads. Covered areas:
 
 - Evaluation of cloud service provider similarities, differences, challenges, and opportunities
+
 - Planning, deploying, hardening, and securing single and multi-cloud environments
+
 - Basic cloud resource auditing, security assessment, and incident response
+
+#pagebreak()
 
 #underline[The GPCS certification] validates a practitioner's ability to secure the cloud in both public cloud and multi cloud environments.
 
@@ -5779,13 +5959,12 @@ CASP+ is compliant with ISO 17024 standard and approved by the US DoD to meet di
   - Evaluation and comparison of public cloud service providers
   
   - Auditing, hardening, and securing public cloud environments
+  
   - Introduction to multi-cloud compliance and integration
 
 The #underline[International Information Systems Security 
 Certification Consortium (ISC)] is a non-profit organization 
 that provides security training and certificates. It is worldwide known for issuing, in particular, CISSP, CCSP and CSSLP certifications.
-
-#pagebreak()
 
 _Who earns the CISSP?_
 
@@ -5794,14 +5973,23 @@ _Who earns the CISSP?_
   - Chief Information Security Officer
   
   - Chief Information Officer
+  
   - Director of Security
+  
   - IT Director/Manager
+  
   - Security Systems Engineer
+  
   - Security Analyst
+  
   - Security Manager
+  
   - Security Auditor
+  
   - Security Architect
+  
   - Security Consultant
+  
   - Network Architect
 
 - Ideal for IT and information security leaders responsible for applying best practices to cloud security architecture, design, operations and service orchestration, including those in the following positions:
@@ -5809,12 +5997,20 @@ _Who earns the CISSP?_
   - Cloud Architect
   
   - Cloud Engineer
+  
   - Cloud Consultant
+  
   - Cloud Administrator
+  
   - Cloud Security Analyst
+  
   - Cloud Specialist
+  
   - Auditor of Cloud Computing Services
+  
   - Professional Cloud Developer
+
+As a side note, the CISSP meets the U.S. Department of Defense (DoD) Directive 8570.1.
 
 _Who earns the CSSLP?_
 
@@ -5823,22 +6019,31 @@ _Who earns the CSSLP?_
   - Software Architect
   
   - Software Engineer
+  
   - Software Developer
+  
   - Application Security Specialist
+  
   - Software Program Manager
+  
   - Quality Assurance Tester
+  
   - Penetration Tester
+  
   - Software Procurement Analyst
+  
   - Project Manager
+  
   - Security Manager
+  
   - IT Director/Manager
 
 This certification helps professionals learn how to 
-audit cloud systems. 
+audit _cloud systems_. 
 
 - CCAK is the first-ever, technical, vendor-neutral  credential for cloud auditing
 
-- This certificate qualifies competent technical professionals who can help organizations mitigate risks and optimize Return of Investment in the cloud
+- This certificate qualifies competent technical professionals who can help organizations _mitigate risks_ and optimize Return of Investment in the cloud
 
 As organizations migrate to the cloud, they need information security professionals who are cloud-savvy.
 
@@ -5849,99 +6054,138 @@ As organizations migrate to the cloud, they need information security profession
 EC-Council’s #underline[Certified Chief Information Security Officer Program (CCISO)] is a program that recognizes the real-world experience necessary to succeed at the 
 highest executive levels of information security.
 
-#underline[EC-Council’s Certified Hacking Forensic Investigator (CHFI)] is ANSI accredited, lab-focused that gives organizations vendor-neutral training in digital forensics.
+#underline[EC-Council’s Certified Hacking Forensic Investigator (CHFI)] is ANSI accredited, _lab-focused_ that gives organizations _vendor-neutral training_ in digital forensics.
 
-- CHFI provides its attendees with a firm grasp of digital forensics, presenting a detailed and methodological approach to digital forensics and evidence analysis that also pivots around Dark Web, IoT, and Cloud Forensics
+- CHFI provides its attendees with a firm grasp of digital forensics, presenting a detailed and methodological approach to digital forensics and evidence analysis that also pivots around _Dark Web, IoT, and Cloud Forensics_
 
 - The tools and techniques covered in this program will prepare the learner for conducting digital investigations using ground-breaking digital forensics technologies
 
-- The program is designed for IT professionals involved with information system security, computer forensics, and incident response
+- The program is designed for IT professionals involved with information system security, computer _forensics_, and incident response
 
   - It will help fortify the application knowledge in digital forensics for forensic analysts, cybercrime investigators, cyber defense forensic analysts, incident responders, information technology auditors, malware analysts, security consultants, and chief security officers
   
-  - The program equips candidates with the necessary skills to proactively investigate complex security threats, allowing them to investigate, record, and report cybercrimes to prevent future attacks
+  - The program equips candidates with the necessary skills to proactively _investigate_ complex security threats, allowing them to investigate, record, and report cybercrimes to prevent future attacks
 
-EC-Council #underline[Network Defender] certifications are vendor-neutral and provide an approach to learning secure networking practices, as well as how to analyze and harden computing systems prevalent in the current IT infrastructure. It is completely focused on network security and defense.
+#underline[EC-Council Network Defender] certifications are vendor-neutral and provide an approach to learning secure networking practices, as well as how to analyze and harden computing systems prevalent in the current IT infrastructure. It is completely focused on network _security_ and _defense_.
 
-#underline[CompTIA PenTest+] is for cybersecurity professionals tasked with penetration testing and vulnerability management. The CompTIA PenTest+ certification exam will verify successful candidates have the knowledge and skills required to:
+Isaca’s CISA, CRISC, CGEIT, CISM, CSX-P, CDPSE, ITCA 
+certifications are shown in the specific slides (in case, see something #link("https://www.isaca.org/credentialing/certifications")[here])
+
+#underline[CompTIA PenTest+] is for cybersecurity professionals tasked with _penetration testing_ and _vulnerability management_. The CompTIA PenTest+ certification exam will verify successful candidates have the knowledge and skills required to:
 
 - plan and scope a penetration testing engagement
 
 - understand legal and compliance requirements
-- perform vulnerability scanning and penetration testing using appropriate tools and techniques, and then analyze the results
+
+- perform vulnerability scanning and penetration testing using appropriate _tools_ and _techniques_, and then analyze the results
+
 - produce a written report containing proposed remediation techniques, effectively
-- communicate results to the management team, and provide practical recommendations
+
+- _communicate results_ to the management team, and provide practical recommendations
 
 The Giac (Global Information Assurance Certification) program program is run by the SANS Institute, one of the oldest organizations that provide cybersecurity education.
 
 - The #underline[GIAC Penetration Tester (GPEN)] certification validates a practitioner's ability to properly conduct a penetration test, using best practice techniques and methodologies. 
 
-- GPEN certification holders have the knowledge and skills to conduct exploits and engage in detailed reconnaissance, as well as utilize a process-oriented approach to penetration testing projects
+- GPEN certification holders have the knowledge and skills to conduct exploits and engage in detailed _reconnaissance_, as well as utilize a process-oriented approach to penetration testing projects
+
+#pagebreak()
 
 - Covered areas:
+
   - Comprehensive Pen Test Planning, Scoping, and Recon
   
   - In-Depth Scanning and Exploitation, Post-Exploitation, and Pivoting
+  
   - In-Depth Password Attacks and Web App Pen Testing
 
 #underline[Certified Ethical Hacker CEH] is about commercial-grade hacking tools, techniques, and methodologies used by hackers and information security professionals to lawfully hack an organization.
 
 - In 2003, CEH introduced the five phases of ethical hacking, the blueprint for approaching target and succeeding at breaking in
 
-- CEH has continued to hone these 5 phases, updating and refining them to match the skillset ethical hackers need today:
+- CEH has continued to hone these 5 _phases_, updating and refining them to match the skillset ethical hackers need today:
 
   - Reconnaissance
   
   - Gaining Access
+  
   - Enumeration
+  
   - Maintaining Access
+  
   - Covering Your Tracks
 
 - CEH covers many threats and vulnerability scenarios, like APT, Fileless Malware, Web API Threats, Webhooks, Web Shell, OT Attacks, Cloud Attacks, AI, ML, but also emerging technologies such as OT Technology and Container Technology.
 
   - CEH includes Malware Analysis tactics for ransomware, banking and financial malware, IoT botnets, OT Malware Analysis, Android Malware, and more.
 
-#underline[Penetration Testing with Kali Linux] (PWK/PEN-200) online ethical hacking course is self-paced. 
+#underline[Penetration Testing with Kali Linux (PWK/PEN-200)] online ethical hacking course is self-paced. 
 
 - It introduces penetration testing tools and techniques via hands-on experience. PEN-200 trains not only the skills, but also the mindset required to be a successful penetration tester
 
-- Students who complete the course and pass the exam earn the Offensive Security Certified Professional (OSCP) certification
+- Students who complete the course and pass the exam earn the Offensive Security Certified Professional (OSCP) certification - some tips for the exam #link("https://www.offensive-security.com/wp-content/uploads/2022/03/oscp-prep-ebook.pdf")[here]
 
 - All students are required to have:
 
   - Solid understanding of TCP/IP networking
   
   - Reasonable Windows and Linux administration experience
+  
   - Familiarity with basic Bash and/or Python scripting
 
-_Gamification_, gradual paths and playground / community are some different (or somehow additional) powerful tools to guide the improvement of competence, even without certifying them. 
+_Gamification_, gradual paths and playground / community are some _different_ (or somehow _additional_) powerful tools to guide the improvement of competence, even without certifying them. 
 
-- But are we sure these tools do not assess the competence of people and don’t they have a value, in some cases, almost comparable to certifications?
+- But are we sure these tools do not assess the competence of people and don’t they have a value almost comparable to certifications?
 
-- Those who train challenge themselves and other apprentices, improving their own and others' knowledge and skills, obtaining measurable results within a community, so the usefulness of these workshops is evident
+- Those who train challenge themselves and other apprentices, improving their own and others' knowledge and skills, obtaining _measurable_ results within a _community_, so the usefulness of these workshops is evident
 
-- Here are some known resources to improve by doing:
+- Here are some known resources to improve by _doing_:
 
   - hackthebox.com
   
   - infoseclearning.com
+  
   - tryhackme.com
 
 To (finally) conclude:
 
-- Certification: has the undisputed advantage of reliably certifying someone's competence, thanks to a system of trust that is built through the consensus that forms around them. 
+- _Certification_: has the undisputed advantage of reliably certifying someone's competence, thanks to a system of trust that is built through the _consensus_ that forms around them. 
 
-  - Certifications may provide for a necessary level of abstraction (which removes some dimensions in the real world) which varies according to the examination methods, which may be greater if the examination does not include practical tests, and vice versa
+  - Certifications may provide for a necessary level of _abstraction_ (which removes some dimensions in the real world) which varies according to the examination methods, which may be greater if the examination does not include practical tests, and vice versa
   
   - The more organizations accept certifications, the more they take on value
   
-- Laboratory: participating in laboratories recognized for the level of difficulty, even in the absence of certification, can actually improve people's skills, especially in those sectors where lateral thinking and the development of concrete working methods are strongly required 
+- _Laboratory_: participating in laboratories recognized for the level of difficulty, even in the absence of certification, can actually improve people's skills, especially in those sectors where lateral thinking and the development of concrete working methods are strongly required 
 
   - (such as for those who will carry out an ethical hacking activity)
 
-  - In this case, competence tends to assert itself in practice, with mechanisms that reward results similar to those expected in real scenarios
+  - In this case, competence tends to assert itself _in practice_, with mechanisms that reward results similar to those expected in real scenarios
 
   - The quality and realism of the laboratories are the key to their success (preparing people)
+
+(With this set of slides, there is also a set called ISACA Chapter presentation, which is completely optional and just there for a more in-depth notion - in case I'll summarize it anyway, but do not focus deeply on that)
+
+The document is a presentation by the ISACA Venice Chapter from May 23, 2022, introducing ISACA, a global non-profit association for IT audit, assurance, security, risk, compliance, cybersecurity, and governance professionals. The presentation covers the following key points:
+
+1. ISACA has a worldwide presence with 224 chapters across various regions
+
+2. ISACA offers certifications such as CISA, CISM, and CRISC, which are among the top-paying IT certifications
+
+3. ISACA provides cybersecurity education and credentialing through its Cybersecurity Nexus (CSX) training program
+
+4. ISACA organizes worldwide conferences, educational seminars, webinars, and virtual summits
+
+5. Members have access to online resources, forums, special interest groups, volunteer opportunities, and networking events through the ISACA online community
+
+6. ISACA offers career resources, including career pathways tools, discounted career coaching, and a job board
+
+7. ISACA has a student membership program and supports the formation of ISACA Student Groups at higher education institutions
+
+8. The ISACA Venice Chapter, established in 2011, covers Northern-East Italy and has over 250 members
+
+9. The Venice Chapter organizes certification prep courses, the AppSec Conference, monthly events, and other conferences on specific topics
+
+10. Students in the "Security and risk: management and certifications" course at the University of Padua can enroll in ISACA Venice courses for free.
 
 #pagebreak()
 
@@ -5949,83 +6193,89 @@ To (finally) conclude:
 
 == Process and definitions
 
-We give several definitions here, according to ISO 9000:2015. The following could be considered useful for an audit report:
+We give several definitions here, according to ISO 9000:2015. The following could be considered useful for an audit report (a bunch of general ones to aim the concepts):
 
-- asset
+- _audit_
 
   - systematic, independent and documented process for obtaining objective evidence and evaluating it objectively to determine the extent to which the audit criteria are fulfilled
 
-- management system
+- _management system_
 
   - set of interrelated or interacting elements of an organization to establish policies and objectives, and processes to achieve those objectives
 
-- combined audit
+- _combined audit_
 
   - audit carried out together at a single auditee on two or more management systems
 
-- joint audit
+- _joint audit_
 
   - audit carried out at a single auditee by two or more auditing organizations
 
-- audit programme
+- _audit programme_
 
   - arrangements for a set of one or more audits planned for a specific time frame and directed towards a specific purpose
 
-- audit client
+- _audit client_
 
   - organization or person requesting an audit
 
-- audit team
+- _audit team_
 
   - one or more persons conducting an audit, supported if needed by technical experts
 
-- auditor
+- _auditor_
 
   - person who conducts an audit
 
-  - audit evidence
-
-  - records, statements of fact or other information, which are relevant to the audit criteria and verifiable
-
-- audit scope
-
-  - extent and boundaries of an audit
-  
-- audit plan
-
-  - description of the activities and arrangements for an audit
-
-- audit findings
-
-  - results of the evaluation of the collected audit evidence against audit criteria 
-
-- audit conclusion
-
-  - outcome of an audit, after consideration of the audit objectives and all audit findings
-
-- performance
+- _performance_
 
   - measurable result
 
-- process
+- _process_
 
   - set of interrelated or interacting activities that use inputs to deliver an intended result
 
-- effectiveness
+- _effectiveness_
 
   - extent to which planned activities are realized and planned results achieved
 
-- audit criteria
+Consider the prerequisites for assets:
+
+- _audit criteria_
 
   - set of requirements used as a reference against which objective evidence is compared
 
-- objective evidence
+- _objective evidence_
 
   - data supporting the existence or verity of something
-  
-From the audit report, we might go into two directions:
 
-- nonconformity
+- _audit evidence_
+
+  - records, statements of fact or other information, which are relevant to the audit criteria and verifiable
+
+Up next, we consider:
+
+- _audit scope_
+
+  - extent and boundaries of an audit
+  
+- _audit plan_
+
+  - description of the activities and arrangements for an audit
+
+- _audit findings_
+
+  - results of the evaluation of the collected audit evidence against audit criteria 
+
+We then jump to the:
+
+- _audit conclusion_
+
+  - outcome of an audit, after consideration of the audit objectives and all audit findings
+  
+From the audit conclusion for the audit report, said report might go into two directions:
+
+- _nonconformity_
 
   - non-fulfilment of a requirement. If major, no certification is possible. If minor, certification is still possible, but nonconformity will have to be dealt with by the following year
 
@@ -6035,21 +6285,21 @@ From the audit report, we might go into two directions:
 
 == Purpose of a certification
 
-The auditor ("evaluator") is the professional who collects this information. Please remember that certification can also be a mandatory requirement in certain circumstances (e.g. calls for tender).
+The _auditor_ ("evaluator") is the _professional who collects this information_. Please remember that certification can also be a mandatory requirement in certain circumstances (e.g. calls for tender).
 
 Audit can be:
 
-- first party: internal, auditors and audited are in the same organization)
+- _first_ party: internal, auditors and audited are in the _same_ organization
 
-- second party: carried out by an interested external party (e.g. a Customer)
+- _second_ party: carried out by an interested external party (e.g. a Customer)
 
-- third party: carried out by an independent body (e.g. a Certification Body)
+- _third_ party: carried out by an independent body (e.g. a Certification Body)
 
 Some ISO standards on the matter:
 
-- ISO 17021 - Accreditation standard
+- _ISO 17021_ - Accreditation standard
 
-  - It is addressed to the  Certification Body
+  - It is addressed to the _Certification Body_
 
   - Contains information on third party audits
 
@@ -6057,26 +6307,29 @@ Some ISO standards on the matter:
   
   - A series of subsequent parts supplement the text with specific requirements for the individual Management Systems
 
-- ISO 19011 - Guideline for management system audits
+- _ISO 19011_ - Guideline for management system audits
 
-  - It is aimed at anyone who carries out audits
+  - It is aimed at _anyone who carries out audits_
   
-  - Focused on first and second party audits
+  - Focused on _first and second party audits_
 
-  - Provides guidance on managing an audit program, planning and conducting audits of management systems, as well as the competence and evaluation of an auditor and audit team
+  - Provides _guidance_ on managing an audit program, planning and conducting audits of management systems, as well as the competence and evaluation of an auditor and audit team
 
 An audit can be conducted against a range of audit criteria, separately or in combination, including but not limited to:
 
-- requirements defined in one or more management system standards
+- _requirements_ defined in one or more management system standards
 
-- policies and requirements specified by relevant interested parties
-- statutory and regulatory requirements
-- one or more management system processes defined by the organization or other parties
-- management system plan(s) relating to the provision of specific outputs of a management system (e.g. quality plan, project plan)
+- _policies_ and _requirements_ specified by relevant interested parties
+
+- _statutory_ and _regulatory_ requirements
+
+- one or more_ management system processes_ defined by the organization or other parties
+
+- management system plan(s) relating to the provision of specific _outputs_ of a management system (e.g. quality plan, project plan)
 
 The certification audit consists of two phases:
 
-  - Audit stage 1
+  - _Audit stage 1_
   
   - Audit stage 2
   
@@ -6085,46 +6338,64 @@ The pre-audit is optional, but adds value:
 1. Preparation of documentation and implementation audit
 
 2. Helps the organization familiarize itself with the audit approach of certification
+
 3. Address all regulatory requirements
+
 4. Optional, at the request of the organization
 
-- Stage 1 – ‘Preparation Audit’
+- Stage 1 – "Preparation Audit"
 
-  - It is recommended to do it in the field
+  - It is recommended to do it in the _field_
   
-  - Documentation review
-  - Evaluation of the structure and specific conditions of the site
-  - Review of key performance parameters
-  - Validation of the scope
-  - Collection of information on mandatory (legal and regulatory) requirements and their compliance
-  - Reviewing the availability of resources for phase 2 audit, agreeing with the client and planning phase 2
-  - Assessment of overall preparation for the phase 2 audit
-  - Report the findings, including critical aspects, to the customer / audited entity
+  - _Documentation_ review
+  
+  - Evaluation of the _structure_ and specific conditions of the site
+  
+  - Review of key _performance_ parameters
+  
+  - Validation of the _scope_
+  
+  - Collection of information on _mandatory_ (legal and regulatory) requirements and their compliance
+  
+  - Reviewing the availability of _resources_ for phase 2 audit, agreeing with the client and planning phase 2
+  
+  - Assessment of _overall_ preparation for the phase 2 audit
+  
+  - Report the _findings_, including critical aspects, to the customer/audited entity
 
-- Stage 2 – ‘Implementation audit’ 
+- Stage 2 – "Implementation audit"
 
-  - The purpose is to evaluate the implementation and effectiveness of the system 
+  - The purpose is to evaluate the _implementation_ and _effectiveness_ of the system 
   
   - It must be conducted on place
 
-  - Compliance with all audit criteria requirements
+  - _Compliance_ with all audit criteria requirements
+  
   - Performance versus goals
-  - Performance against legal requirements
-  - Operational control of the audited processes
-  - Results, actions and effectiveness in the field of internal audits and the management review
-  - Management's responsibility towards its own policies
-  - Interrelationship between mandatory requirements, quality policy, objectives and performance targets
+  
+  - Performance against _legal_ requirements
+  
+  - _Operational_ control of the audited processes
+  
+  - Results, actions and effectiveness in the field of _internal audits_ and the _management review_
+  
+  - Management's responsibility towards its own _policies_
+  
+  - Interrelationship between _mandatory_ requirements, quality policy, objectives and performance targets
+  
 - Evaluate the effectiveness of the system with regard to:
 
   - Achieve goals and objectives
   
   - Implement policy commitments (e.g. compliance, achievement of requirements, continuous improvement, etc.) 
+  
   - Operational controls in all areas of the system
+  
   - Corrective actions
   
-- Evaluate the organization's implementation and overall effectiveness of the Management System
+- Evaluate the organization's _implementation_ and overall _effectiveness_ of the Management System
 
-- STAGE 2 - Complete system audit 
+- Stage 2 - "Complete system audit"
 
   - The complete Management System audit covers:
   
@@ -6134,45 +6405,80 @@ The pre-audit is optional, but adds value:
   
   - 3 Key questions:
   
-    1. Is the system adequate?
+    1. Is the system _adequate_?
     
-    2. Is the system suitable?
-    3. Is the system effective?
+    2. Is the system _suitable_?
+    
+    3. Is the system _effective_?
 
-#pagebreak()
+Audit conclusion is:
 
+- Based on the _results_ of STAGE 1 and STAGE 2 
+
+- Decision to issue the _certificate_ based on the findings of the Audit Team
 
 Consider the example of a _surveillance_ audit:
 
 - Conducted in the field at least every year (sometimes every semester)
 
 - They cover all processes / functions over a three year period following certification / renewal
-- The audit program is based on the results of previous audits and on the importance and status of the processes 
+
+- The audit program is based on the results of previous audits and on the importance and status of the processes
+
 - They can take into account internal audits
+
 - Evaluate the organization's continued compliance with the requirements of the certification standard
+
+Following an ideal ISO 27011 Audit Cycle:
+
+- Certification Audit (2018)
+
+- Surveillance Audit (2019)
+
+- Surveillance Audit (2020)
+
+- Recertification Audit (2021)
+
+- Surveillance Audit (2022)
+
+- Surveillance Audit (2023)
+
+- Recertification Audit (2024)
+
+- Surveillance Audit (2025)
+
+- and so on...
 
 == Audit plan, initiation and preparation
 
-6 phases of the audit (ISO 19011):
+6 _phases_ of the audit (ISO 19011):
 
 - Initiating audit
 
-- Preparing audit activities
-- Conducting audit activities
-- Preparing and distributing audit report
-- Completing audit
-- Conducting audit follow-up
+- Preparing audit _activities_
 
-Remember that management systems (such as ISMS or Quality MS) are based on the High level structure, which is founded on the Deming Cycle «Plan Do Check Act» (PDCA). 
+- _Conducting_ audit activities
+
+- Preparing and distributing audit report
+
+- _Completing_ audit
+
+- Conducting audit _follow-up_
+
+_Remember_ that management systems (such as ISMS or Quality MS) are based on the High level structure, which is founded on the Deming Cycle «Plan Do Check Act» (_PDCA_). 
 
 Conducting a single audit includes:
 
 - targets
 
 - criteria
+
 - extension (including processes and / or functions)
+
 - dates and sites
+
 - start and end times of activities
+
 - roles and responsibilities of auditors and accompanying persons
 
 Some steps must be followed:
@@ -6181,41 +6487,55 @@ Some steps must be followed:
 
 - Review of relevant documented information relating to the management system of the audited organization
 
-- Documented information should include, but are not limited to: management system documents and records, as well as previous audit reports
+- Documented information should include, but are not limited to: management system _documents_ and _records_, as well as _previous audit reports_
 
-  - The review should consider the context of the audited organization, including size, type and complexity, as well as related risks and opportunities. The review should also consider the scope, criteria and objectives of the audit
+  - The review should consider the context of the audited organization, including size, type and complexity, as well as related risks and opportunities
+  
+  - The review should also consider the scope, criteria and objectives of the audit
   
 - The review is generally conducted personally by the Lead Auditor
 
 == Preparing audit activities
 
-In preparing the audit, follow Phase 1 - Documentary evidence:
+In preparing the audit, follow _Phase 1 - Documentary evidence_:
 
 - Normally it is performed in the field
 
 - Validation of the scope of the management system
+
 - Gathering information on the legal framework
+
 - Examination of documents
+
 - Evaluation of the structure and specific conditions
+
 - Review of indicators and parameters
-- Establish general preparation for phase 2
-- Define the plan for phase 2
+
+- Establish general preparation for Phase 2
+
+- Define the plan for Phase 2
+
 - Report the findings, including areas for improvement
 
 We compose the activities as follows:
 
-- Audit plan
+- _Audit plan_
 
   - Field of application
   
   - Criteria Dates and & duration
+  
   - Group of auditors
+  
   - Detailed timetable
+  
   - Planning matrix
+  
   - Auditor requests
+  
   - (Remember to cover shifts)
 
-- Working documents
+- _Working documents_
 
   - Checklist
   
@@ -6225,26 +6545,25 @@ We compose the activities as follows:
 
 A full system audit covers:
 
-- EVERY point of the reference standard
+- _EVERY_ point of the reference standard
 
 - Links between elements of the system
 
 Some key questions here:
 
-1. is the system adequate?
+1. is the system _adequate_?
 
-2. does the system work?
-3. Is the system effective?
+2. does the system _work_?
+
+3. is the system _effective_?
 
 Some other points:
 
-- The opening meeting is important for introducing the audit team, discussing the objectives, scope and criteria of the audit, confirming the plan and methods, sampling for evidence acquisition and other important details for the execution of the audit
+- The _opening_ meeting is important for introducing the audit team, discussing the objectives, scope and criteria of the audit, confirming the plan and methods, sampling for evidence acquisition and other important details for the execution of the audit
 
-- Intermediate meetings will also be planned. with the management system contact person and other managers to review the findings, discuss non-conformities, manage the proposals for corrective actions and corrections
+- _Intermediate_ meetings will also be planned. with the management system contact person and other managers to review the findings, discuss non-conformities, manage the proposals for corrective actions and corrections
 
-The auditor finds evidence by checking documents, looking at 
-records, interviewing people at all levels, and observing practices 
-and the physical environment.
+The auditor finds evidence by checking _documents_, looking at _records_, _interviewing_ people at all levels, and observing practices and the physical environment.
 
 - production / service lines, activities, controls, inspections, audits, monitoring management of non-compliant products / services maintenance systems
 
@@ -6264,82 +6583,101 @@ and the physical environment.
 
 == Auditing a process and sampling
 
-The following is the checklist (useful and necessary as a tool) on how to proceed on process auditing:
+The following is the checklist (useful and necessary as a tool) on how to proceed on process auditing (all the following are always taken from ISO 19011):
 
 1. process
 
 2. input
+
 3. output
+
 4. resources
+
 5. who is involved (competence, ability, training)
+
 6. how (methods, procedures and techniques)
+
 7. effectiveness (measurable goals)
 
-It recommends also to:
+Other recommendations on how to proceed:
 
-- Leave space for your notes
+- Leave space for your _notes_
 
-- The Checklist must become an audit diary
-- Reference to the audit criteria
-- Reference to system documents (procedures)
+- The Checklist must become an audit _diary_
+
+- Reference to the audit _criteria_
+
+- Reference to system _documents_ (procedures)
+
 - Reference to documents checked (records)
 
 About the sampling, the following is how to proceed:
 
 - An auditor always or almost always works on a sample basis
 
-- Judgment-based sampling
-- Statistical Sampling
-- Consider the time since the last audit
-- Consider the extension of the scope
+- _Judgment-based_ sampling
+
+- _Statistical_ sampling
+
+- Consider the _time since the last audit_
+
+- Consider the _extension of the scope_
 
 == Nonconformities
 
-According to ISO 19011, non-conformities are not to be intended in a negative way and a discovered nonconformity is a previously hidden 
-opportunity for improvement. 
+According to ISO 19011, #underline[non-conformities] are not to be intended in a negative way and a discovered nonconformity is a previously hidden opportunity for improvement. 
 
-- The auditors do not provide suggestions on how to resolve the nonconformities and nonconformity reports must be very clear and objective
+- The auditors _do not provide suggestions_ on how to resolve the nonconformities and nonconformity reports must be very _clear and objective_
 
 - Nonconformity reports have 3 elements:
 
-  1. the declaration of non-conformity (description of the element of the system that is incorrect)
+  1. the _declaration_ of non-conformity (description of the element of the system that is incorrect)
   
-  2. the evidence (what has currently been found)
-  3. the requirement (what should have been)
+  2. the _evidence_ (what has currently been found)
+  
+  3. the _requirement_ (what should have been)
 
 - ISO 27021 requires that only non-conformities that involve failures in complying with one or more requirements and / or the system's inability to achieve the desired results, must be closed with an effective correction and corrective action before certification (major non-conformities)
 
-  - Please note that the opportunities for improvement are not non-conformities
+  - Please note that the opportunities for improvement _are not_ non-conformities
   
   - It is good practice to consider opportunities for improvement, even though recommendations are not binding
 
 There are different kinds of nonconformities:
 
-- Product nonconformities
+- _Product_ nonconformities
 
   - emerge during the daily work
   
   - they are usually identified by the operators
+  
   - they are physiological in processes
+  
   - must be correct
+  
   - must be registered
+  
   - records must be analyzed
+  
   - possibly they must be improved with corrective actions
 
-- System nonconformities
+- _System_ nonconformities
 
   - emerge during audits or other external controls
 
   - they are identified by external bodies and not during normal control operations
+  
   - they are pathological in the processes
+  
   - the immediate effect must be corrected
+
   - the causes must be analyzed
 
 In order to intervene, corrective and preventive actions must be implemented:
 
-- corrective action is needed to eliminate the cause of a detected non-compliance
+- _Corrective_ action is needed to eliminate the cause of a detected non-compliance
 
-- preventive action is to eliminate the cause of a potential non-compliance
+- _Preventive_ action is to eliminate the cause of a potential non-compliance
 
 == Closing meeting
 
@@ -6347,25 +6685,33 @@ It has the following characteristics:
 
 - It must be preceded by an internal meeting of the audit team
 
-- presence of the management and the heads of the audited processes
-- there must be no surprises (non-conformities must be communicated or anticipated when they are discovered)
+- presence of the _management_ and the heads of the audited processes
+
+- there must be _no surprises_ (non-conformities must be communicated or anticipated when they are discovered)
+
 - discussion of corrective actions must occur first
 
-Contents of the final report:
+Contents of the _final report_:
 
-- objectives of the scope of the audit itself
+- _objectives_ of the scope of the audit itself
 
-- dates and places of the audit
-- identification of the customer, auditor and people audited
-- audit criteria
-- auditor's judgment on compliance with the specified criteria
-- non-conformities and observations
-- confidentiality
+- _dates_ and _places_ of the audit
+
+- identification of the_ customer, auditor and people audited_
+
+- audit _criteria_
+
+- auditor's judgment on compliance with the _specified_ criteria
+
+- _non-conformities_ and _observations_
+
+- _confidentiality_
+
 - attachments: complete checklists and notes, non compliance reports, planning of corrective and preventive action
 
 == Use cases
 
-- Case 1
+- _Case 1_
 
   - Beta company intends to certify its information security management system by declaring the insurance services it provides as the scope of the management system (and therefore of the certificate)
   
@@ -6375,19 +6721,18 @@ Contents of the final report:
   
   - In the role of the auditor, what are the chapters of the ISO 27001 standard that have been disregarded, which may lead to non-compliance?
 
-- Case 2
+- _Case 2_
 
   - The Gamma company submits an application for certification of its ISMS to the certification body. When analyzing documented information from the management system, the company does not have a written information security policy
   
   - In the role of the auditor, what are the chapters of the ISO 27001 standard that have been disregarded, which may lead to non-compliance?
-
 
 #pagebreak()
 
 = M11.2 - Practical cases, ISMS audit
 
 In this chapter we will see, through examples, what are some 
-important aspects to consider in the ISO / IEC 27001 audit. We will also deepen the concept of document, given that their examination is fundamental in audits.
+important aspects to consider in the ISO / IEC 27001 audit. We will also deepen the concept of _document_, given that their examination is fundamental in audits.
 
 == Documentation for audit and certification process
 
@@ -6396,176 +6741,202 @@ understand the attention that the organization pays in
 describing processes, policies and collecting documentary 
 evidence.
 
-Documents can belong to two types: process or 
-implementation. 
+Documents can belong to two types: _process_ or 
+_implementation_. 
 
-- The latter are records that can support evidence that processes, instructions, procedures and policies are in place
+- The latter are records that can support evidence that _processes, instructions, procedures_ and _policies_ are in _place_
 
-- Documents are sampled by the auditors
+- Documents are _sampled_ by the auditors
 
-The documents can be written texts, flow charts, tables or matrices, drawings or sketches, series of sketches, drawings or photographs, audio, video and digital media of various types.
+The documents _can be_ written texts, flow charts, tables or matrices, drawings or sketches, series of sketches, drawings or photographs, audio, video and digital media of various types.
 
-Purpose of the main information security policy is:
+_Purpose_ of the _main information security policy_ is:
 
 - Communicate the requirements
 
 - Describe and implement the management system
+
 - Basis for verification
+
 - Ensure continuity
+
 - Reduce the learning curve
+
 - Demonstrate compliance with the standard
+
 - Pre-qualification and contractual objectives
+
 - Pursue continuous improvement especially in such a dynamic sector
 
-Purpose of the management system manual is:
+_Purpose_ of the _management system manual_ is:
 
 - Be a direct collection of policies, procedures and documents
 
 - Be made up of more than one document or layer
+
 - Be a grouping or selection of management system documents
+
 - Be a series of procedures for a specific use or application
+
 - Have a common part with differentiated appendages
+
 - Being (or not) a self-supporting document
+
 - It can be an integrated manual (certified company with more schemes can follow this best practice)
 
 #pagebreak()
 
-A management system manual usually contains high-level 
-information (policy).
+A management system manual usually contains _high-level 
+information_ (policy).
 
-- The essential elements are: introduction (containing the objectives, the purpose of the system, the presentation of the company), the approval and modification procedure, the explanation of the terminology, the writing of the system documentation, the general description of the management system and all relevant annexes
+- The essential elements are: 
 
-What are the procedures for?
+  - introduction (containing the objectives, the purpose of the system, the presentation of the company)
+  
+  - the approval and modification procedure, the explanation of the terminology, the writing of the system documentation
+  
+  - the general description of the management system and all relevant annexes
+
+What are the _procedures_ for?
 
 - They have to answer the questions "what, why, who, where, when and how"
 
-- They essentially define the process
+- They essentially _define the process_
 
 What documentation is needed for the ISMS?
 
-- a) Documents necessary for the organization in terms of size and criticality
+- a) Documents necessary for the organization in terms of _size and criticality_
 
-- b) Documents required by standards, codes, laws, etc.
+- b) Documents required by _standards, codes, laws_, etc.
 
-- c) The documentary complex must be like a "dress", it must not be thin or redundant
+- c) The documentary complex must be like a "dress", it must not be _thin_ or _redundant_
 
 == ISO/IEC 27001:2022 - Auditing the ISMS
 
-Let's add detail to what we saw in the first lesson by proposing some practical cases related to the auditable chapters of the standard, helping in understanding the principle and logic pursued by the auditors of ISO 27001 based ISMS.
+Let's add _detail_ to what we saw in the first lesson by proposing some practical cases related to the auditable chapters of the standard, helping in understanding the principle and logic pursued by the auditors of ISO 27001 based ISMS.
 
 Reconsider the whole standard structure:
 
 - 0 - Introduction
 
 - 1 - Scope
+
 - 2 - Normative references
+
 - 3 - Terms and definitions
 
 These chapters are mostly reading indications and specifications about (e.g.) variations with respect to the previous version of the standard.
 
-- 4 Context of the organization
+- 4 - Context of the organization
 
-- 4.1 Understand the organization and its context
+- 4.1 - Understand the _organization_ and its _context_
 
-- 4.2 Understanding the needs and expectations of - interested parties
-- 4.3 Determining the scope of the information security management system
-- 4.4 Information security management system
+- 4.2 - Understanding the _needs_ and _expectations_ of interested parties
 
-E.g. the country where the organization is located, the laws it must take into account ...
-The scope must be available as documented information.
+- 4.3 - Determining the _scope_ of the information security management system
+
+- 4.4 - Information security management system
 
 #pagebreak()
 
+The _scope_ must be available as documented information.
+
+  - E.g. the country where the organization is located, the laws it must take into account...
+
 In this part, consider for instance:
 
-- 4. properly defining the scope of the ISMS
+- 4. _properly defining the scope of the ISMS_
 
   - the Beta company, audited in its ISMS, defines its scope as "protecting information“, and nothing else
   
-  - such a purpose does not help the organization to be aware of the exact boundaries of the management system, which must adhere to a known surface in order to function properly
+  - such a purpose does not help the organization to be aware of the exact boundaries of the management system, which must _adhere_ to a known surface in order to function properly
   
-  - the scope can include one or more processes, functions, services, sections or places, an entire legal or administrative entity and some suppliers
+  - the scope can include one or more _processes, functions, services, sections or places_, an entire _legal_ or _administrative entity_ and some _suppliers_
 
 Moving on with the standard:
   
-- 5 Leadership
+- 5 - _Leadership_
 
-- 5.1 Leadership and commitment
-- 5.2 Policy
-- 5.3 Organizational roles, responsibilities and authorities
+- 5.1 - Leadership and commitment
 
-Obtain the commitment of the Management (budget, definition of roles and responsibilities, promote improvement ...).
-The information security policy must be available as documented information.
+- 5.2 - Policy
+
+- 5.3 - Organizational roles, responsibilities and authorities
+
+Obtain the commitment of the Management (budget, definition of roles and responsibilities, promote improvement...).
+The _information security policy_ must be available as documented information.
 
 In this part, consider for instance:
 
-- 5. Participation of top management
+- 5. _Participation of top management_
 
   - In the opening meeting of the Epsilon Inc.’s ISMS audit there are no directors and information security managers, but only the information security operative personnel
   
-  - This does not support the requirement to ensure the involvement of TOP management, for which the commitment of those who can ensure the means and resources necessary to achieve the objectives is necessary
+  - This _does not_ support the requirement to ensure the involvement of TOP management, for which the _commitment_ of those who can ensure the means and resources necessary to achieve the objectives is necessary
 
-- 5. Budget 
+- 5. _Budget_ 
 
   - Delta Inc. shows in the managerial review, during the audit, the budget allocated to achieve the objectives of the ISMS. Sufficient explanation is not given that the funds allocated have effectively covered the security objectives
   
   - This translates into a poor consideration of the resources necessary to achieve the goals of the ISMS and, in particular, it is not clear whether these are available, fueling uncertainty about the capabilities and success of the ISMS itself
 
-- 5. Compatibility of the objectives of the ISMS with the strategic ones of the organization
+- 5. _Compatibility of the objectives of the ISMS with the strategic ones of the organization_
 
   - During the audit, it emerges that Gamma LLP has established, as the objective of the ISMS, that of ‘protecting information relating to a printing service’ provided in the past to some customers
   
   - For two years, however, this service has no longer been delivered, but some resources are still being dedicated to the protection of this service, through the adoption of specific security controls that are no longer useful (and unnecessarily expensive)
   
-  - This situation might denote a distance between the aims of the ISMS and the strategic objectives of the organization, nullifying resources that could be used more profitably (ISMS serves the purposes of the Organization).
+  - This situation might denote a _distance_ between the _aims_ of the ISMS and the _strategic objectives_ of the organization, nullifying resources that could be used more profitably (ISMS serves the purposes of the Organization).
 
 Moving on with the standard:
 
-- 6 Planning
-- 6.1 Actions to address risks and opportunities
+- 6 - _Planning_
+
+- 6.1 - Actions to address risks and opportunities
 
 - The main “premise” of risk analysis
 
   - Based on the context, the Organization must establish how to identify risks and opportunities
   
   - Guarantee the Result. Establish evaluation criteria. Ensuring «rigor» (comparable results when identifying, analyzing and evaluating risk). Risk treatment (Annex A)
+  
   - The objectives must be consistent with the policy and, if possible, measurable.
 
-Information on the risk assessment process, 'SoA', Risk Treatment Plan and information security objectives must be available as documented information.
+Information on the risk assessment process, _"SoA", Risk Treatment Plan_ and information security _objectives_ must be available as documented information.
 
-- 6.2 Information security objectives and planning to achieve them
+- 6.2 - Information security _objectives_ and planning to achieve them
 
-- 6.3 Planning of change
+- 6.3 - Planning of change
 
 In this part, consider for instance:
 
-- 6. How many types of risk?
+- 6. _How many types of risk?_
 
   - In the risk assessment, Omicron LLP considers the risks of loss of confidentiality, integrity and availability and does not take into consideration the risks that affect the achievement of the goals of the ISMS
   
   - This is an important mistake, since in order to protect the functioning of the ISMS it is necessary to first consider the risk of failure to achieve its objectives and all the factors that can increase it, in order to keep the level under control
 
-- 6. Actions to address risks and opportunities
+- 6. _Actions to address risks and opportunities_
 
   - In the risk identification phase, the Alpha company did not formally consider the actions to address risks and opportunities and these actions are not integrated into the organization's processes
   
-  - This is a probable nonconformity, and the standard also requires that the way in which implementation takes place is established from the risk identification stage, as well as assessing the effectiveness of these actions
+  - This is a probable nonconformity, and the standard also requires that _the way_ in which implementation takes place is established from the risk identification stage, as well as assessing the effectiveness of these actions
 
-- 6. Risk acceptance and assessment criteria
+- 6. _Risk acceptance and assessment criteria_
 
   - The auditor asks the ISMS manager to show, in the risk analysis, where the risk acceptance criteria and the criteria for conducting the risk assessment lie
   
   - The manager verbally explains what the criteria are, saying that, since the risk is variable, writing them would not allow it to be monitored
   
-  - Such an explanation is unacceptable. The ISMS asks that the criteria be defined precisely to allow measurement of effectiveness, as well as to obtain comparable results over time
+  - Such an explanation is unacceptable. The ISMS asks that the criteria be _defined_ precisely to allow measurement of effectiveness, as well as to obtain _comparable_ results over time
 
-- 6. Risk Assessment consistency
+- 6. _Risk Assessment consistency_
 
-  - Pay attention to scales for assigning values to likelihood and consequences of risks
+  - Pay attention to scales for assigning values to _likelihood_ and _consequences_ of risks
   
   - Identify all the relevant risks
 
-- 6. Information security objectives
+- 6. _Information security objectives_
 
   - The Beta company sets the goal for its ISMS to protect classified information that is very sensitive. The information security policy does not include any reference to confidential documents and how to protect them
   
@@ -6573,19 +6944,23 @@ In this part, consider for instance:
 
 Moving on with the standard:
   
-- 7 Support
+- 7 - _Support_
 
-- 7.1 Resources
-- 7.2 Competence
-- 7.3 Awareness
-- 7.4 Communication
-- 7.5 Documented Information
+- 7.1 - Resources
 
-The Organization determines and provides competent, knowledgeable resources, establishing the rules for communicating and documenting information.
+- 7.2 - Competence
+
+- 7.3 - Awareness
+
+- 7.4 - Communication
+
+- 7.5 - Documented Information
+
+The Organization _determines_ and _provides_ competent, knowledgeable resources, establishing the rules for communicating and documenting information.
 
 In this part, consider for instance:
 
-- 7. Awareness
+- 7. _Awareness_
 
   - The auditor notes that the people in the Rho LLP company are in a hurry, they exchange information in the corridors, they switch roles to help each other
   
@@ -6593,80 +6968,87 @@ In this part, consider for instance:
   
   - This situation is very serious because people must have a defined role and responsibility to be aware of. Also people are not aware of the security policy. Non conformities are very likely in this case
 
+#pagebreak()
+
 Moving on with the standard:
 
-- 8 Operation
+- 8 - _Operation_
 
-- 8.1 Operational planning and control
-- 8.2 Information security risk assessment
-- 8.3 Information security risk treatment
+- 8.1 - Operational planning and control
 
-The information certifying the operation of the processes, the results of the risk analysis and the risk treatment plan must be documented and stored.
+- 8.2 - Information security risk assessment
+
+- 8.3 - Information security risk treatment
+
+The information _certifying_ the _operation_ of the processes, the _results_ of the risk analysis and the risk treatment plan must be _documented_ and _stored_.
 
 In this part, consider for instance:
 
-- 8. Implementation problem
+- 8. _Implementation problem_
 
   - The Lambda company, in a process establishes that invoices of a certain type must be saved in a protected area which is accessed only by authorized persons
   
-  - The auditor, asking a person who is not part of the working group in question, and therefore does not have the authorization, notes that the latter is able to access the protected area
+  - The auditor, asking a person who is not part of the working group in question, and therefore does not have the authorization, notes that the latter _is able to access the protected area_
   
-  - Furthermore, he realizes that some invoices have not been saved in a protected area, but in a shared area
+  - Furthermore, he realizes that _some invoices have not been saved in a protected area_, but in a shared area
 
-  - The problem of non-implementation here is twofold: firstly, the rescue in a protected area does not always happen. Also, some people are allowed to log in even though they don't have to be
+  - The problem of non-implementation here is _twofold_: firstly, the rescue in a protected area does not always happen. Also, some people are allowed to log in even though they don't have to be
 
 Moving on with the standard:
 
-- 9 Performance Evaluation
+- 9 - _Performance Evaluation_
 
-- 9.1 Monitoring, measurement, analysis and evaluation
-- 9.2 Internal audit
-- 9.3 Management Review
+- 9.1 - Monitoring, measurement, analysis and evaluation
+
+- 9.2 - Internal audit
+
+- 9.3 - Management Review
 
 This part is focused on:
 
-- Evaluate the performance and effectiveness of the ISMS
+- Evaluate the _performance_ and _effectiveness_ of the ISMS
 
 - The Organization must keep appropriate documented information as evidence of monitoring and measurement results, as well as the results of the management review
 
-- Documented information must be kept as evidence of the audit program and internal audit results
+- _Documented information_ must be kept as _evidence_ of the audit program and internal audit results
 
 In this part, consider for instance:
 
-- 9. Internal Audit 
+- 9. _Internal Audit_
 
   - The audit team is preparing to verify how the Beta company meets the performance evaluation requirement of the ISMS
   
-  - The lead auditor asks the head of the internal audit function to produce the audit program and reports. Internal audit exhibits the documents.
+  - The lead auditor asks the head of the internal audit function to produce the audit _program_ and _reports_. Internal audit exhibits the documents.
 
-  - The auditor notes that the program includes audits of various processes and services, but although Beta is a provider of a communication service, a key hosting provider who contributes to the provision of the service is never audited
+  - The auditor notes that the program includes audits of various processes and services, but although Beta is a provider of a communication service, a key hosting provider who contributes to the provision of the service is _never_ audited
   
   - The audit program must take into account the processes involved, such as the procurement and outsourcing process in this case, which must meet the requirements of the ISMS
 
-- 9. Management review 
+- 9. _Management review _
 
   - The Kappa company has not produced a managerial review for 14 months and, despite having an ISMS for some years, does not contemplate the state of the art from previous managerial reviews
   
-  - Kappa's ISMS is unlikely to be certified
+  - Kappa's ISMS is _unlikely_ to be certified
   
-  - The managerial review (to be released at least yearly) is essential to understand the findings of nonconformities and corrective actions, the monitoring of results and audits and, finally, the achievement of the objectives of the ISMS
+  - The managerial review (to be released at least yearly) is _essential_ to understand the findings of _nonconformities_ and _corrective actions_, the monitoring of _results_ and _audits_ and, finally, the achievement of the _objectives of the ISMS_
 
 Moving on with the standard:
 
-- 10 Improvement
+- 10 - _Improvement_
 
-- 10.1 Continual improvement
-- 10.2 Nonconformity and corrective action
+- 10.1 - Continual improvement
+
+- 10.2 - Nonconformity and corrective action
 
 This part is focused on:
 
-- The Organization must react to the non-compliance: check it and correct it. Face the consequences and make sure it won't happen again
+- The Organization must react to the non-compliance: _check it_ and _correct it_. Face the _consequences_ and make sure it won't happen again
 
-- It must also understand the causes and document the nature and results of corrective actions as documented information
+- It must also understand the causes and document the _nature_ and _results_ of _corrective actions_ as documented information
 
 In this part, consider for instance:
 
-- 10. Reacting to nonconformities
+- 10. _Reacting to nonconformities_
 
   - Sigma, an IT company, has an ISMS that has received nonconformities relating to certain security controls (annex A ISO / IEC 27001) and relating to personnel awareness
 
@@ -6674,41 +7056,42 @@ In this part, consider for instance:
 
   - Sigma receives several reports from customers and occasionally opens security incidents
 
-  - All nonconformities should be reacted to. Incidents, reports, or complaints are often indicative of a bigger problem that must be faced in terms of accountability towards the actors of the ISMS, of the organization and external, keeping track of what is being done to resolve the situation
-  
+  - _All nonconformities should be reacted to_. Incidents, reports, or complaints are often indicative of a bigger problem that must be faced in terms of accountability towards the actors of the ISMS, of the organization and external, keeping track of what is being done to resolve the situation
+
+#pagebreak()
+
 == Security controls (countermeasures)
 
 There are a lot of countermeasures, listed as controls in the section "5. Organizational controls". 
 
-Between all of them, what we care the most here is "5.24. Information security incident management planning 
-and preparation".
+Between all of them, what we care the most here is _"5.24. Information security incident management planning 
+and preparation"._
 
 In this part, consider for instance:
 
-- 5. Incident management
+- 5. _Incident management_
 
   - Theta company is asked to audit the incident management procedure. 
 
   - Theta shows a document where relevant security incidents are indicated and described, without however indicating who should do what in the event of an accident
   
-  - The problem is that since the roles and responsibilities are not defined, it is not clear who should carry out the procedures
+  - The problem is that since the roles and responsibilities are not defined,_ it is not clear who should carry out the procedures_
 
-There's also the list of people controls (6. People controls), which we care the most about "6.7 Remote 
-working".
+There's also the list of people controls (6. People controls), which we care the most about _"6.7 Remote working"_.
 
 In this part, consider for instance:
 
-- 6. Remote working
+- 6. _Remote working_
 
   - Ypsilon, in a period of pandemic, is forced to have its staff work remotely, but many people do not have a company computer manned by the company. Ypsilon does nothing to reduce the risk.
 
-  - If the control is applied in the Ypsilon ISMS, an auditor can only assign a nonconformity. The company should have a policy that imposes, for example, the use of the virtual machine, the VPN, physical protection measures of the device, firewall and antivirus, ...
+  - If the control is applied in the Ypsilon ISMS, an auditor can only assign a nonconformity. The company should have a _policy_ that imposes, for example, the use of the virtual machine, the VPN, physical protection measures of the device, firewall and antivirus, ...
 
-There's also the list of people controls (7. Physical controls), which we care the most about "7.2 Physical entry".
+There's also the list of people controls (7. Physical controls), which we care the most about _"7.2 Physical entry"_.
   
 In this part, consider for instance:
 
-- 7. Physical Entry
+- 7. _Physical Entry_
 
   - Phi Inc., a logistics company, leaves a gate open that leads to a freight unloading area
 
@@ -6716,11 +7099,13 @@ In this part, consider for instance:
 
   - Poor supervision of an unloading area can lead to the entry of unauthorized persons or vehicles, the theft of assets and other dangers for the organization
 
-There's also the list of people controls (8. Technological controls), which we care the most about "8.28 Secure coding".
-  
+There's also the list of people controls (8. Technological controls), which we care the most about _"8.28 Secure coding"_.
+
+#pagebreak()
+
 In this part, consider for instance:
 
-- 8. Secure coding
+- 8. _Secure coding_
 
   - Zeta company LLP develops software for resale, based on market needs. This service (and related processes) is part of the scope of the ISMS
   
