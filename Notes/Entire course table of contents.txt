@@ -1,0 +1,225 @@
+Lessons left out: M0 - M5 (professor presentations) + M6.5 (useful only for people doing the report as attending students)
+
+--------------------------------------------------------------
+
+M1.1/M.1.2 - Basic Concepts
+
+1. Cybersecurity fundamentals 
+๏ Definitions and basics concepts 
+๏ Knowledge areas 
+๏ Why are risk assessment and management important?
+
+2. Standards overview 
+๏ Standard of Good Practice 
+๏ ISO/IEC 27000 Suite 
+๏ ISA/IEC 62443
+
+3. Frameworks overview 
+๏ NIST Cybersecurity Framework 
+๏ MITRE Att&ck 
+๏ National Framework for Cybersecurity 
+๏ OWASP
+
+4. Effective Cybersecurity 
+๏ Management process 
+๏ Cybersecurity information and decision flow
+
+--------------------------------------------------------------
+
+M2.1/M2.2 - Planning for Cybersecurity
+
+1. Security Governance 
+๏ Governance vs Management 
+๏ Principles and Outcomes 
+๏ Governance Components 
+๏ Approach 
+๏ Evaluation
+
+2. Risk Assessment 
+๏ Concepts 
+๏ Asset, Threat, Control, and Vulnerability Identification 
+๏ Risk Assessment Approaches 
+๏ Likelihood and Impact Assessments 
+๏ Risk Determination 
+๏ Risk Treatment
+
+3. Methods 
+๏ STRIDE (Threat Modeling) 
+๏ OCTAVE (Risk Management)
+
+4. Security Management 
+๏ Key aspects 
+๏ Planning
+
+
+--------------------------------------------------------------
+
+M3.1/M3.2/M3.3/M3.4/M3.5 - Cybersecurity Operations and Management
+
+1. People Management 
+๏ Human Factor 
+๏ Cybersecurity Awareness and Education
+
+2. Physical Asset Management 
+๏ Hardware 
+๏ Office equipment 
+๏ Industrial Control Systems (ICSs) 
+๏ Mobile Devices
+
+3. System Access and Management 
+๏ Authentication 
+๏ Access Control 
+
+4. Computer Security Incident Response Teams (CSIRT) 
+๏ Terminology 
+๏ Triage 
+๏ Incident Report 
+๏ Handling 
+๏ Resolution 
+
+5. Technical Security Management 
+๏ Malware Protection 
+๏ Intrusion Detection 
+๏ Data Loss Prevention
+
+6. Network Security 
+๏ Network Fundamentals 
+๏ Network Management 
+๏ Network Security Concepts
+
+7. Threat and Incident Management 
+๏ Vulnerabilities Management 
+๏ Security Event Logging 
+๏ Threat Intelligence 
+๏ Incident Management Workflow
+
+8. Physical and Infrastructure Security 
+๏ Threats 
+๏ Recovery 
+๏ Integration with Logical Security
+
+9. Business Continuity and Recovery Plan 
+๏ Concepts 
+๏ Management 
+๏ Costs
+
+--------------------------------------------------------------
+
+M4.1 - Security Assessment and use cases
+
+--------------------------------------------------------------
+
+M4.1/M.4.2 - Security Assessment and use cases
+
+1. Railway Signaling Systems Networks Cybersecurity 
+๏ Railway as a System
+๏ Security Aspects for the Railway Sector
+๏ Signaling Network Security
+๏ Cyber range as Tool for the Security Assessment
+
+2. Cybersecurity for Railway Applications
+๏ Cyber Risk in Critical Infrastructures
+๏ CENELEC TS 50701: Scope and Overview
+๏ CENELEC TS 50701: Reference Architecture
+๏ CENELEC TS 50701: Zones and Conduits
+๏ Final Remarks
+
+
+--------------------------------------------------------------
+
+M6.1 - Certification and Frameworks for Organizations and management systems
+
+1. Information Security Management System 
+(ISMS)
+๏ Information Security
+๏ Definitions and basics concepts
+๏ Why is an ISMS important?
+
+2. ISO/IEC 27001:2022 and guidelines from 
+ISO/IEC 27002:2022
+๏ High Level Structure and PDCA scheme
+๏ Annex «A» and countermeasures
+
+--------------------------------------------------------------
+
+M6.2 - Cloud Security
+๏ Cloud computing: benefits and risks
+๏ ISO/IEC 27017 and ISO/IEC 27018. 
+- Security and privacy in cloud;
+- Add-on structure
+๏ Cloud Security Alliance (CSA) - STAR Certification 
+- CCM
+- CAIQ
+
+--------------------------------------------------------------
+
+M6.3 - Personal data processing and Information Security. Law and certifications
+๏ Definitions, roles and principles through the relevant law
+๏ ISO/IEC 27701: PIMS 
+๏ ISO/IEC 29100: privacy framework
+๏ Other standards and certifications
+
+--------------------------------------------------------------
+
+M6.4 - Data center certification, frameworks and relevant laws
+๏ TIER - Data center certification
+๏ NIST Framework
+๏ CINI – Consorzio interuniversitario nazionale per l’informatica – Italian framework
+๏ NIS Directive
+
+--------------------------------------------------------------
+
+M7 - Certification of products and technologies
+๏ Common Criteria (ISO/IEC 15408) and FIPS 140 for cryptography
+๏ Italian law on certification of products and technologies
+๏ Payment Card Industry Data Security Standard 
+(PCI) - Data Security Standard (DSS)
+
+--------------------------------------------------------------
+
+M8.1 - Frameworks that describe the competencies
+๏ Introduction to the main Frameworks commonly recognized to describe professional profiles within ICT security
+๏ Levels, professional roles, and mapped competencies. European e-Competence Framework (e-CF)
+๏ NICE and AGID Frameworks
+
+--------------------------------------------------------------
+
+M8.2 - Frameworks that describe the competencies
+๏ Cyber Career Pathways Tool. National Initiative for Cybersecurity Careers and Studies (cisa.gov)
+๏ Department of Defense (DoD) Directive 8140/8570
+๏ Enisa Skills Framework
+๏ Framework and labor market
+
+--------------------------------------------------------------
+
+M9 - Certification of people
+๏ Accreditation Bodies and Conformity Assessment 
+Bodies. The role of IAF
+๏ ISO/IEC 17024 and the Italian Accreditation Body “Accredia”
+๏ Auditor/Lead Auditor certification for third-party audit on Management Systems based on certifiable ISO standards (e.g. ISMS). Important requirements for an ISMS auditor
+
+--------------------------------------------------------------
+
+M10.1 - Competence about Governance and Management
+๏ Competence and Governance. Introduction and context. 
+๏ ISACA - COBIT 5 Framework 
+๏ Certification for people related to Governance and Management of Enterprise IT. ISACA – COBIT
+
+--------------------------------------------------------------
+
+M10.2 - Competence about Cybersecurity
+๏ IT security and Ethical hacking certifications (Comptia, SANS-GIAC, ISC, CSA, ISACA and EcCouncil. Offensive security - OSCP)
+๏ Training programs, labs, and penetration testing (TryHackMe, Hack the Box and Infosec) 
+๏ Differences between certifications and training programs
+
+--------------------------------------------------------------
+
+M11.1 Audit techniques and approach examples
+๏ Management Systems audit. Definitions.
+๏ ISO 17021 and 19011
+๏ Use case
+
+--------------------------------------------------------------
+
+M11.2 Audit techniques and approach examples
+๏ Documentation. Practical experience. Information Security Management System (ISMS) audit
